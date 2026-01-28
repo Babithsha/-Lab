@@ -1,0 +1,77 @@
+[
+  {
+    "_id": "admin-1",
+    "name": "Admin User",
+    "email": "admin@lab.com",
+    "password": "password123",
+    "role": "admin",
+    "createdAt": "2026-01-27T17:35:47.522Z"
+  },
+  {
+    "_id": "tech-1",
+    "name": "Technician User",
+    "email": "tech@lab.com",
+    "password": "password123",
+    "role": "technician",
+    "createdAt": "2026-01-27T17:35:47.523Z"
+  },
+  {
+    "_id": "student-1",
+    "name": "Student User",
+    "email": "student@klu.ac.in",
+    "password": "password123",
+    "role": "student",
+    "createdAt": "2026-01-27T17:35:47.523Z"
+  },
+  {
+    "_id": "i4at9lzxr",
+    "name": "GARLAPATI HANMANTH SAI RAM 2023-CSE",
+    "email": "99230040836@klu.ac.in",
+    "role": "Admin",
+    "password": "",
+    "image": "https://lh3.googleusercontent.com/a/ACg8ocLfmXMX-cokhQJt9xMHtxIAVSe_0pvhdAczX92JrnSaD2uMJg=s96-c",
+    "createdAt": "2026-01-27T17:37:16.520Z"
+  },
+  {
+    "_id": "q08skbjz1",
+    "name": "NAIDU BABITHSHA 2023-IT",
+    "email": "9923008027@klu.ac.in",
+    "role": "Technician",
+    "password": "",
+    "image": "https://lh3.googleusercontent.com/a/ACg8ocLXGu2iB6CRlNOsHEqiVvLPhBFS4K7EppAW9gXqLwuJrYIfWg=s96-c",
+    "createdAt": "2026-01-27T17:39:05.947Z"
+  },
+  {
+    "_id": "k68spxnhg",
+    "name": "rohith",
+    "email": "9923005130@klu.ac.in",
+    "password": "12345678",
+    "role": "technician",
+    "createdAt": "2026-01-27T17:53:07.555Z"
+  },
+  {
+    "_id": "q3iewvhlu",
+    "name": "BOMMIDI GANESH 2023-ECE",
+    "email": "9923005064@klu.ac.in",
+    "role": "student",
+    "password": "",
+    "image": "https://lh3.googleusercontent.com/a/ACg8ocIbatYf_1GxzqCby0aPI1NxIO7NWj5HJpsXhdxgK6Viix98QQ=s96-c",
+    "createdAt": "2026-01-27T17:54:45.188Z"
+  },
+  {
+    "_id": "vqxkutog9",
+    "name": "rishi",
+    "email": "9923005136@klu.ac.in",
+    "password": "12345678",
+    "role": "admin",
+    "createdAt": "2026-01-27T18:02:59.895Z"
+  },
+  {
+    "_id": "gb9sfhld8",
+    "name": "Admin User",
+    "email": "admin@test.com",
+    "password": "Password123!",
+    "role": "admin",
+    "createdAt": "2026-01-28T16:27:18.891Z"
+  }
+]

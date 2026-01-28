@@ -1,0 +1,152 @@
+[
+  {
+    "_id": "pel9a68f7",
+    "equipmentName": "Digital Oscilloscope",
+    "user": "demo-student-id",
+    "date": "2026-01-26T17:38:03.224Z",
+    "status": "Approved",
+    "createdAt": "2026-01-26T17:38:03.363Z"
+  },
+  {
+    "_id": "sample_damage_fine",
+    "equipmentName": "Digital Oscilloscope",
+    "userId": "q08skbjz1",
+    "userEmail": "9923008027@klu.ac.in",
+    "userName": "NAIDU BABITHSHA 2023-IT",
+    "date": "2026-01-26T17:38:03.224Z",
+    "status": "Approved",
+    "createdAt": "2026-01-26T17:38:03.363Z",
+    "damageFine": 0,
+    "damageDescription": "",
+    "damageReportedBy": "",
+    "damageFineAddedAt": null
+  },
+  {
+    "_id": "2138z7jsx",
+    "equipmentName": "Spectrophotometer",
+    "user": "demo-student-id",
+    "date": "2026-01-26T17:39:53.774Z",
+    "status": "Approved",
+    "createdAt": "2026-01-26T17:39:53.786Z"
+  },
+  {
+    "_id": "zbh1l1x4x",
+    "equipmentName": "Microscope",
+    "user": "demo-student-id",
+    "date": "2026-01-26T17:51:18.914Z",
+    "status": "Approved",
+    "createdAt": "2026-01-26T17:51:18.927Z"
+  },
+  {
+    "_id": "hxxh7hhi5",
+    "equipmentName": "Digital Oscilloscope",
+    "user": "demo-student-id",
+    "date": "2026-01-26T18:22:52.083Z",
+    "status": "Approved",
+    "createdAt": "2026-01-26T18:22:52.247Z"
+  },
+  {
+    "_id": "cjhxyt7zi",
+    "equipmentName": "Spectrophotometer",
+    "user": "demo-student-id",
+    "date": "2026-01-26T18:22:54.401Z",
+    "status": "Approved",
+    "createdAt": "2026-01-26T18:22:54.412Z"
+  },
+  {
+    "_id": "7fgx4anen",
+    "equipmentName": "Digital Oscilloscope",
+    "user": "demo-student-id",
+    "date": "2026-01-26T18:32:26.679Z",
+    "status": "Approved",
+    "createdAt": "2026-01-26T18:32:26.802Z"
+  },
+  {
+    "_id": "6lqbn2yc8",
+    "equipmentName": "Digital Oscilloscope",
+    "userId": "z3hdly6jn",
+    "userEmail": "9923005064@klu.ac.in",
+    "userName": "BOMMIDI GANESH 2023-ECE",
+    "date": "2026-01-27T15:58:16.687Z",
+    "status": "Approved",
+    "createdAt": "2026-01-27T15:58:16.698Z"
+  },
+  {
+    "_id": "nvy3vm9n1",
+    "equipmentName": "Spectrophotometer",
+    "userId": "z3hdly6jn",
+    "userEmail": "9923005064@klu.ac.in",
+    "userName": "BOMMIDI GANESH 2023-ECE",
+    "date": "2026-01-27T15:58:19.935Z",
+    "status": "Approved",
+    "createdAt": "2026-01-27T15:58:19.943Z"
+  },
+  {
+    "_id": "mqojsr3kl",
+    "equipmentName": "Thermal Camera",
+    "userId": "z3hdly6jn",
+    "userEmail": "9923005064@klu.ac.in",
+    "userName": "BOMMIDI GANESH 2023-ECE",
+    "date": "2026-01-27T15:59:30.368Z",
+    "status": "Approved",
+    "createdAt": "2026-01-27T15:59:30.378Z"
+  },
+  {
+    "_id": "fa9cd481h",
+    "equipmentName": "Microscope",
+    "userId": "z3hdly6jn",
+    "userEmail": "9923005064@klu.ac.in",
+    "userName": "BOMMIDI GANESH 2023-ECE",
+    "date": "2026-01-27T16:00:43.584Z",
+    "status": "Denied",
+    "createdAt": "2026-01-27T16:00:43.595Z"
+  },
+  {
+    "_id": "cq5cgzvos",
+    "equipmentId": "yisur9q34",
+    "equipmentName": "lab",
+    "userId": "q08skbjz1",
+    "userEmail": "9923008027@klu.ac.in",
+    "userName": "NAIDU BABITHSHA 2023-IT",
+    "date": "2026-01-27T17:41:13.075Z",
+    "status": "Approved",
+    "createdAt": "2026-01-27T17:41:13.095Z",
+    "damageFine": 2000,
+    "damageDescription": "ff",
+    "damageReportedBy": "Admin",
+    "damageFineAddedAt": "2026-01-28T17:11:24.702Z"
+  },
+  {
+    "_id": "surximjwn",
+    "equipmentId": "yisur9q34",
+    "equipmentName": "lab",
+    "userId": "q3iewvhlu",
+    "userEmail": "9923005064@klu.ac.in",
+    "userName": "BOMMIDI GANESH 2023-ECE",
+    "date": "2026-01-28T17:25:34.944Z",
+    "status": "Denied",
+    "createdAt": "2026-01-28T17:25:34.954Z"
+  },
+  {
+    "_id": "tmtlyt24c",
+    "equipmentId": "yisur9q34",
+    "equipmentName": "lab",
+    "userId": "q3iewvhlu",
+    "userEmail": "9923005064@klu.ac.in",
+    "userName": "BOMMIDI GANESH 2023-ECE",
+    "date": "2026-01-28T17:34:52.789Z",
+    "status": "Approved",
+    "createdAt": "2026-01-28T17:34:52.800Z"
+  },
+  {
+    "_id": "omt6g1ora",
+    "equipmentId": "yisur9q34",
+    "equipmentName": "lab",
+    "userId": "q3iewvhlu",
+    "userEmail": "9923005064@klu.ac.in",
+    "userName": "BOMMIDI GANESH 2023-ECE",
+    "date": "2026-01-28T17:34:55.972Z",
+    "status": "Approved",
+    "createdAt": "2026-01-28T17:34:55.983Z"
+  }
+]

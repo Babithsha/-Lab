@@ -1,0 +1,11 @@
+[
+  {
+    "_id": "yisur9q34",
+    "name": "lab",
+    "category": "lab",
+    "quantity": 9,
+    "description": "lab",
+    "status": "Available",
+    "createdAt": "2026-01-27T17:21:37.309Z"
+  }
+]
