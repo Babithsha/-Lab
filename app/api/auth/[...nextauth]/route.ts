@@ -2,6 +2,7 @@
 import NextAuth, { NextAuthOptions, DefaultSession } from "next-auth"
 import GoogleProvider from "next-auth/providers/google"
 import CredentialsProvider from "next-auth/providers/credentials"
+import dbConnect from "@/lib/db"
 import { User } from "@/lib/models"
 
 declare module "next-auth" {
@@ -28,12 +29,21 @@ export const authOptions: NextAuthOptions = {
                 password: { label: "Password", type: "password" }
             },
             async authorize(credentials) {
-                const email = credentials?.email?.toLowerCase();
+                await dbConnect();
+                const email = credentials?.email?.trim().toLowerCase();
+                const password = credentials?.password;
+
+                if (!email || !password) return null;
 
                 // Check DB
                 const user = await User.findOne({ email });
-                if (user && user.password === credentials?.password) {
-                    return { id: user._id, name: user.name, email: user.email, role: user.role };
+                if (user && user.password === password) {
+                    return {
+                        id: user._id.toString(),
+                        name: user.name,
+                        email: user.email,
+                        role: user.role
+                    };
                 }
                 return null;
             }
@@ -41,6 +51,7 @@ export const authOptions: NextAuthOptions = {
     ],
     callbacks: {
         async signIn({ user, account, profile }) {
+            await dbConnect();
             if (account?.provider === "google") {
                 // Allow any email for now, or uncomment to restrict
                 // if (!profile?.email?.endsWith("@klu.ac.in")) {
@@ -48,9 +59,9 @@ export const authOptions: NextAuthOptions = {
                 // }
 
                 // Auto-register user if not exists
-                const email = user.email?.toLowerCase();
+                const email = user.email?.trim().toLowerCase();
                 if (email) {
-                    const existingUser = await User.findOne({ email });
+                    const existingUser = await User.findOne({ email: email as string });
                     if (!existingUser) {
                         await User.create({
                             name: user.name,
@@ -68,10 +79,11 @@ export const authOptions: NextAuthOptions = {
         async jwt({ token, user }) {
             // Initial sign in or subsequent requests - Sync role from DB
             if (token.email) {
-                const dbUser = await User.findOne({ email: token.email });
+                await dbConnect();
+                const dbUser = await User.findOne({ email: (token.email as string).trim().toLowerCase() });
                 if (dbUser) {
                     token.role = dbUser.role;
-                    token.id = dbUser._id;
+                    token.id = dbUser._id.toString();
                 }
             }
 

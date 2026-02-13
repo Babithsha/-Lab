@@ -1,2 +1,39 @@
+# Dependencies
 node_modules
+
+# Environment variables
 .env
+.env.local
+.env.production
+
+# Next.js build output
+.next
+out
+
+# Production build
+build
+dist
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Old data backup (now using MongoDB)
+# Keeping for reference but not tracking changes
+data/*.json
+
+# MongoDB backups
+backup/
+*.dump

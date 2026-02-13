@@ -1,9 +1,12 @@
 
 import { NextRequest, NextResponse } from 'next/server';
+import dbConnect from '@/lib/db';
 import { User } from '@/lib/models';
 
 export async function POST(req: NextRequest) {
     try {
+        await dbConnect();
+
         const body = await req.json();
         const { name, password, role } = body;
         const email = body.email?.toLowerCase();

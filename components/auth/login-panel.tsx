@@ -48,19 +48,45 @@ export function LoginPanel({ role, onBack }: LoginPanelProps) {
     e.preventDefault()
     setIsLoading(true)
 
-    // Use NextAuth Credentials Provider
-    const result = await signIn("credentials", {
-      email,
-      password,
-      redirect: false,
-    })
+    try {
+      // Validate inputs
+      if (!email || !password) {
+        toast.error("Please enter both email and password")
+        setIsLoading(false)
+        return
+      }
 
-    if (result?.error) {
-      toast.error("Invalid credentials")
-    } else {
-      toast.success("Logged in successfully")
+      // Use NextAuth Credentials Provider
+      const result = await signIn("credentials", {
+        email,
+        password,
+        redirect: false,
+      })
+
+      if (result?.error) {
+        // Show detailed error message
+        toast.error("Incorrect email or password", {
+          description: "Please check your credentials and try again.",
+          duration: 4000,
+        })
+      } else if (result?.ok) {
+        toast.success("Login Successful!", {
+          description: `Welcome back! Redirecting to ${role} dashboard...`,
+          duration: 3000,
+        })
+        // Clear form
+        setEmail("")
+        setPassword("")
+      }
+    } catch (err) {
+      console.error("Login error:", err)
+      toast.error("Login Failed", {
+        description: "An unexpected error occurred. Please try again later.",
+        duration: 4000,
+      })
+    } finally {
+      setIsLoading(false)
     }
-    setIsLoading(false)
   }
 
   const handleSignUp = async (e: React.FormEvent) => {
@@ -68,6 +94,19 @@ export function LoginPanel({ role, onBack }: LoginPanelProps) {
     setIsLoading(true)
 
     try {
+      // Validate inputs
+      if (!name || !email || !password) {
+        toast.error("Please fill in all fields")
+        setIsLoading(false)
+        return
+      }
+
+      if (password.length < 8) {
+        toast.error("Password must be at least 8 characters long")
+        setIsLoading(false)
+        return
+      }
+
       const res = await fetch('/api/auth/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -75,14 +114,29 @@ export function LoginPanel({ role, onBack }: LoginPanelProps) {
       });
 
       if (res.ok) {
-        toast.success("Account created! Please login.");
+        toast.success("Account Created Successfully! 🎉", {
+          description: "You can now sign in with your credentials.",
+          duration: 4000,
+        });
+        // Clear form fields
+        setName("");
+        setEmail("");
+        setPassword("");
+        // Switch to sign-in tab
         setActiveTab("signin");
       } else {
         const data = await res.json();
-        toast.error(data.error || "Registration failed");
+        toast.error(data.error || "Registration failed", {
+          description: "Please try again with different credentials.",
+          duration: 4000,
+        });
       }
     } catch (err) {
-      toast.error("Something went wrong");
+      console.error("Signup error:", err)
+      toast.error("Something went wrong", {
+        description: "Please check your connection and try again.",
+        duration: 4000,
+      });
     } finally {
       setIsLoading(false);
     }
