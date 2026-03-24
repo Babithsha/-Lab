@@ -29,66 +29,75 @@ export const authOptions: NextAuthOptions = {
                 password: { label: "Password", type: "password" }
             },
             async authorize(credentials) {
-                await dbConnect();
+                try {
+                    await dbConnect();
+                } catch (e) {
+                    console.error('DB connection failed during auth:', e);
+                    throw new Error('Database connection failed. Please try again later.');
+                }
                 const email = credentials?.email?.trim().toLowerCase();
                 const password = credentials?.password;
 
                 if (!email || !password) return null;
 
-                // Check DB
-                const user = await User.findOne({ email });
-                if (user && user.password === password) {
-                    return {
-                        id: user._id.toString(),
-                        name: user.name,
-                        email: user.email,
-                        role: user.role
-                    };
+                try {
+                    const user = await User.findOne({ email });
+                    if (user && user.password === password) {
+                        return {
+                            id: user._id.toString(),
+                            name: user.name,
+                            email: user.email,
+                            role: user.role
+                        };
+                    }
+                    return null;
+                } catch (e) {
+                    console.error('User lookup failed:', e);
+                    return null;
                 }
-                return null;
             }
         })
     ],
     callbacks: {
         async signIn({ user, account, profile }) {
-            await dbConnect();
-            if (account?.provider === "google") {
-                // Allow any email for now, or uncomment to restrict
-                // if (!profile?.email?.endsWith("@klu.ac.in")) {
-                //    return false; // Reject
-                // }
-
-                // Auto-register user if not exists
-                const email = user.email?.trim().toLowerCase();
-                if (email) {
-                    const existingUser = await User.findOne({ email: email as string });
-                    if (!existingUser) {
-                        await User.create({
-                            name: user.name,
-                            email: email,
-                            role: "student", // Default role for Google Sign-in
-                            password: "", // No password for OAuth
-                            image: user.image
-                        });
+            try {
+                await dbConnect();
+                if (account?.provider === "google") {
+                    const email = user.email?.trim().toLowerCase();
+                    if (email) {
+                        const existingUser = await User.findOne({ email: email as string });
+                        if (!existingUser) {
+                            await User.create({
+                                name: user.name ?? 'Google User',
+                                email: email,
+                                role: "student",
+                                password: "",
+                                image: user.image ?? ''
+                            });
+                        }
                     }
                 }
-                return true;
+            } catch (e) {
+                console.error('SignIn callback DB error:', e);
             }
             return true;
         },
         async jwt({ token, user }) {
-            // Initial sign in or subsequent requests - Sync role from DB
             if (token.email) {
-                await dbConnect();
-                const dbUser = await User.findOne({ email: (token.email as string).trim().toLowerCase() });
-                if (dbUser) {
-                    token.role = dbUser.role;
-                    token.id = dbUser._id.toString();
+                try {
+                    await dbConnect();
+                    const dbUser = await User.findOne({ email: (token.email as string).trim().toLowerCase() });
+                    if (dbUser) {
+                        token.role = dbUser.role;
+                        token.id = dbUser._id.toString();
+                    }
+                } catch (e) {
+                    console.error('JWT callback DB error:', e);
+                    // Keep existing token data on DB failure
                 }
             }
 
             if (user) {
-                // Fallback if DB lookup failed or for Credentials provider initial pass
                 if (!token.role && user.role) {
                     token.role = user.role;
                 }
