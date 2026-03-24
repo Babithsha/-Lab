@@ -309,3 +309,45 @@ Check the render method of `EquipmentBrowser`.
 [00:09:12.343] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
 Check the render method of `EquipmentBrowser`. 
+[00:29:18.676] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:29:18.676] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:29:20.397] Server  ERROR    ⨯ ./node_modules/next/dist/server/app-render/action-utils.js
+Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/node_modules/next/dist/server/app-render/action-utils.js'
+
+Import trace for requested module:
+./node_modules/next/dist/server/app-render/action-utils.js
+[00:29:20.596] Server  ERROR    ⨯ ./:23:1
+Module not found: Can't resolve 'next/dist/server/app-render/action-utils'
+  21 | import { setReferenceManifestsSingleton } from "next/dist/server/app-render/encryption-utils";
+  22 | import { isHtmlBotRequest, shouldServeStreamingMetadata } from "next/dist/server/lib/streaming-metadata";
+> 23 | import { createServerModuleMap } from "next/dist/server/app-render/action-utils";
+     | ^
+  24 | import { normalizeAppPath } from "next/dist/shared/lib/router/utils/app-paths";
+  25 | import { getIsPossibleServerAction } from "next/dist/server/lib/server-action-request-meta";
+  26 | import { RSC_HEADER, NEXT_ROUTER_PREFETCH_HEADER, NEXT_IS_PRERENDER_HEADER, NEXT_DID_POSTPONE_HEADER, RSC_CONTENT_TYPE_HEADER } from "next/dist/client/components/app-router-headers";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:22.228] Server  LOG      ○ Compiling /_not-found ...
+[00:29:23.092] Server  ERROR    ⨯ ./:23:1
+Module not found: Can't resolve 'next/dist/server/app-render/action-utils'
+  21 | import { setReferenceManifestsSingleton } from "next/dist/server/app-render/encryption-utils";
+  22 | import { isHtmlBotRequest, shouldServeStreamingMetadata } from "next/dist/server/lib/streaming-metadata";
+> 23 | import { createServerModuleMap } from "next/dist/server/app-render/action-utils";
+     | ^
+  24 | import { normalizeAppPath } from "next/dist/shared/lib/router/utils/app-paths";
+  25 | import { getIsPossibleServerAction } from "next/dist/server/lib/server-action-request-meta";
+  26 | import { RSC_HEADER, NEXT_ROUTER_PREFETCH_HEADER, NEXT_IS_PRERENDER_HEADER, NEXT_DID_POSTPONE_HEADER, RSC_CONTENT_TYPE_HEADER } from "next/dist/client/components/app-router-headers";
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:23.145] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/.next/dev/required-server-files.json.json'
+[00:29:23.155] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/.next/dev/required-server-files.json.json'
+[00:29:23.171] Server  ERROR   Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/.next/dev/required-server-files.json.json'
+[00:29:23.179] Server  ERROR   Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/.next/dev/required-server-files.json.json'
+[00:29:23.188] Server  ERROR   Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/.next/dev/required-server-files.json.json'
+[00:29:23.194] Server  ERROR   Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/.next/dev/required-server-files.json.json'
+[00:29:23.207] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/.next/dev/required-server-files.json.json'
+[00:29:23.217] Server  ERROR   Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/.next/dev/required-server-files.json.json'
+[00:29:23.230] Server  ERROR   Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/.next/dev/required-server-files.json.json'
+[00:29:23.241] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/.next/dev/required-server-files.json.json'
+[00:29:23.250] Server  ERROR   Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/.next/dev/required-server-files.json.json'
+[00:29:23.258] Server  ERROR   Error: ENOENT: no such file or directory, open '/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/.next/dev/required-server-files.json.json'
