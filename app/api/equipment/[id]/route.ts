@@ -8,7 +8,7 @@ export async function PUT(req: NextRequest, props: { params: Promise<{ id: strin
     const { id } = params;
     const data = await req.json();
 
-    const updatedItem = await Equipment.findByIdAndUpdate(id, data);
+    const updatedItem = await Equipment.findByIdAndUpdate(id, data, { new: true });
 
     if (!updatedItem) {
         return NextResponse.json({ error: "Item not found" }, { status: 404 });

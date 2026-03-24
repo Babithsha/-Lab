@@ -18,6 +18,8 @@ interface Equipment {
   _id: string;
   name: string;
   quantity: number;
+  available?: number;
+  lab?: string;
   status: string;
   category?: string;
   description?: string;
@@ -180,7 +182,9 @@ export function EquipmentInventory() {
           <thead>
             <tr className="border-b border-slate-700">
               <th className="text-left p-3 font-semibold">Equipment</th>
-              <th className="text-left p-3 font-semibold">Quantity</th>
+              <th className="text-left p-3 font-semibold">Location</th>
+              <th className="text-left p-3 font-semibold">Total Qty</th>
+              <th className="text-left p-3 font-semibold">Available</th>
               <th className="text-left p-3 font-semibold">Status</th>
               <th className="text-left p-3 font-semibold">Last Calibrated</th>
               <th className="text-left p-3 font-semibold">Actions</th>
@@ -199,11 +203,27 @@ export function EquipmentInventory() {
                       />
                     </td>
                     <td className="p-3">
+                      <Input
+                        value={editForm.lab || ""}
+                        onChange={(e) => setEditForm({ ...editForm, lab: e.target.value })}
+                        placeholder="Lab name"
+                        className="bg-slate-900 border border-slate-600 rounded text-white h-8 w-24"
+                      />
+                    </td>
+                    <td className="p-3">
                       <input
                         type="number"
                         value={editForm.quantity}
-                        onChange={(e) => setEditForm({ ...editForm, quantity: parseInt(e.target.value) })}
-                        className="bg-slate-900 border border-slate-600 rounded w-16 px-2 py-1 text-white"
+                        onChange={(e) => setEditForm({ ...editForm, quantity: parseInt(e.target.value) || 0 })}
+                        className="bg-slate-900 border border-slate-600 rounded w-16 px-2 py-1 text-white h-8"
+                      />
+                    </td>
+                    <td className="p-3">
+                      <input
+                        type="number"
+                        value={editForm.available !== undefined ? editForm.available : editForm.quantity}
+                        onChange={(e) => setEditForm({ ...editForm, available: parseInt(e.target.value) || 0 })}
+                        className="bg-slate-900 border border-slate-600 rounded w-16 px-2 py-1 text-white h-8"
                       />
                     </td>
                     <td className="p-3">
@@ -239,7 +259,11 @@ export function EquipmentInventory() {
                 ) : (
                   <>
                     <td className="p-3 text-white font-semibold">{item.name}</td>
-                    <td className="p-3">{item.quantity}</td>
+                    <td className="p-3">
+                      {item.lab && item.lab !== "" ? <span className="text-orange-400 bg-orange-400/10 px-2 py-1 rounded text-xs">In {item.lab}</span> : <span className="text-slate-500 text-xs italic">Unassigned</span>}
+                    </td>
+                    <td className="p-3 font-semibold text-emerald-400">{item.quantity}</td>
+                    <td className="p-3 font-semibold text-cyan-400">{item.available !== undefined ? item.available : item.quantity}</td>
                     <td className="p-3">
                       <span className={`px-2 py-1 rounded text-sm ${item.status === "Available" || item.status === "Working"
                         ? "bg-green-900 text-green-300"

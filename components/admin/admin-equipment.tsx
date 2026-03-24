@@ -11,6 +11,8 @@ interface Equipment {
   name: string;
   category: string;
   quantity: number;
+  available?: number;
+  lab?: string;
   description?: string;
   status?: string;
   lastCalibrated?: string;
@@ -185,14 +187,16 @@ export function AdminEquipment() {
             <tr className="border-b border-slate-700">
               <th className="text-left p-3 font-semibold">Equipment</th>
               <th className="text-left p-3 font-semibold">Category</th>
-              <th className="text-left p-3 font-semibold">Quantity</th>
+              <th className="text-left p-3 font-semibold">Location</th>
+              <th className="text-left p-3 font-semibold">Total Qty</th>
+              <th className="text-left p-3 font-semibold">Available</th>
               <th className="text-left p-3 font-semibold">Description</th>
               <th className="text-left p-3 font-semibold">Action</th>
             </tr>
           </thead>
           <tbody>
-            {loading && <tr><td colSpan={5} className="p-4 text-center">Loading...</td></tr>}
-            {!loading && equipmentList.length === 0 && <tr><td colSpan={5} className="p-4 text-center">No equipment found.</td></tr>}
+            {loading && <tr><td colSpan={7} className="p-4 text-center">Loading...</td></tr>}
+            {!loading && equipmentList.length === 0 && <tr><td colSpan={7} className="p-4 text-center">No equipment found.</td></tr>}
 
             {equipmentList.map((item) => (
               <tr key={item._id} className="border-b border-slate-700">
@@ -200,7 +204,9 @@ export function AdminEquipment() {
                   <>
                     <td className="p-3"><Input value={editForm.name || ""} onChange={(e) => setEditForm({ ...editForm, name: e.target.value })} className="bg-slate-900 border-slate-600 text-white h-8" /></td>
                     <td className="p-3"><Input value={editForm.category || ""} onChange={(e) => setEditForm({ ...editForm, category: e.target.value })} className="bg-slate-900 border-slate-600 text-white h-8" /></td>
-                    <td className="p-3"><Input type="number" value={editForm.quantity} onChange={(e) => setEditForm({ ...editForm, quantity: parseInt(e.target.value) || 0 })} className="bg-slate-900 border-slate-600 text-white h-8 w-20" /></td>
+                    <td className="p-3"><Input value={editForm.lab || ""} onChange={(e) => setEditForm({ ...editForm, lab: e.target.value })} placeholder="Lab name" className="bg-slate-900 border-slate-600 text-white h-8 w-24" /></td>
+                    <td className="p-3"><Input type="number" value={editForm.quantity} onChange={(e) => setEditForm({ ...editForm, quantity: parseInt(e.target.value) || 0 })} className="bg-slate-900 border-slate-600 text-white h-8 w-16" /></td>
+                    <td className="p-3"><Input type="number" value={editForm.available !== undefined ? editForm.available : editForm.quantity} onChange={(e) => setEditForm({ ...editForm, available: parseInt(e.target.value) || 0 })} className="bg-slate-900 border-slate-600 text-white h-8 w-16" /></td>
                     <td className="p-3"><Input value={editForm.description || ""} onChange={(e) => setEditForm({ ...editForm, description: e.target.value })} className="bg-slate-900 border-slate-600 text-white h-8" /></td>
                     <td className="p-3 flex gap-4">
                       <Button size="sm" onClick={handleUpdate} className="bg-green-600 hover:bg-green-700 h-8">Save</Button>
@@ -211,7 +217,11 @@ export function AdminEquipment() {
                   <>
                     <td className="p-3 text-white font-semibold">{item.name}</td>
                     <td className="p-3">{item.category}</td>
-                    <td className="p-3">{item.quantity}</td>
+                    <td className="p-3">
+                      {item.lab && item.lab !== "" ? <span className="text-orange-400 bg-orange-400/10 px-2 py-1 rounded text-xs">In {item.lab}</span> : <span className="text-slate-500 text-xs italic">Unassigned</span>}
+                    </td>
+                    <td className="p-3 font-semibold text-emerald-400">{item.quantity}</td>
+                    <td className="p-3 font-semibold text-cyan-400">{item.available !== undefined ? item.available : item.quantity}</td>
                     <td className="p-3">{item.description}</td>
                     <td className="p-3 flex gap-4">
                       <Button size="sm" variant="outline" onClick={() => startEdit(item)} className="mr-1 h-8">

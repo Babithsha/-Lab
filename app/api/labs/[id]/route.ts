@@ -9,7 +9,7 @@ export async function PUT(req: NextRequest, props: { params: Promise<{ id: strin
     const { id } = params;
     const data = await req.json();
 
-    const updated = await Lab.findByIdAndUpdate(id, data);
+    const updated = await Lab.findByIdAndUpdate(id, data, { new: true });
     if (!updated) {
         return NextResponse.json({ error: "Lab not found" }, { status: 404 });
     }

@@ -1,32 +1,311 @@
-[00:00:00.903] Server  LOG      ✓ Ready in 700ms
-[00:00:04.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.047] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:05.047] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:05.047] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1771007235684}
-[00:00:05.059] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.094] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.103] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.176] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:05.176] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:05.176] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1771007235814}
-[00:00:05.227] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:05.227] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:05.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1771007235850}
-[00:00:05.227] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:05.227] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:05.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1771007235860}
-[00:00:05.828] Server  LOG     🔄 Creating new database connection...
-[00:00:05.840] Server  LOG     ✅ Successfully connected to MongoDB!
-[00:00:05.859] Server  LOG     ✅ Using cached database connection
-[00:00:06.105] Server  LOG     ✅ Using cached database connection
-[00:00:06.112] Server  LOG     ✅ Using cached database connection
-[00:00:06.117] Server  LOG     ✅ Using cached database connection
-[00:00:06.123] Server  LOG     ✅ Using cached database connection
-[00:00:06.125] Server  LOG     ✅ Using cached database connection
-[00:00:06.129] Server  LOG     ✅ Using cached database connection
-[00:00:06.141] Server  LOG     ✅ Using cached database connection
-[00:00:06.145] Server  LOG     ✅ Using cached database connection
-[00:00:06.152] Server  LOG     ✅ Using cached database connection
-[00:00:43.667] Server  LOG     ✅ Using cached database connection
-[00:00:46.801] Server  LOG     ✅ Using cached database connection
-[00:01:11.948] Server  LOG     ✅ Using cached database connection
+[00:00:01.214] Server  LOG      ✓ Ready in 1066ms
+[00:00:06.446] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.566] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:06.566] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:06.566] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774373855122} /_vercel/insights/view
+[00:00:09.246] Server  ERROR   (node:64313) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[00:00:13.817] Server  LOG     🔄 Creating new database connection...
+[00:00:13.834] Server  LOG     ✅ Successfully connected to MongoDB!
+[00:00:13.843] Server  LOG     ✅ Using cached database connection
+[00:00:14.230] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.248] Server  LOG     ✅ Using cached database connection
+[00:00:14.355] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:14.355] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:14.355] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"https://accounts.google.com/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774373862907} /_vercel/insights/view
+[00:00:14.479] Server  LOG     ✅ Using cached database connection
+[00:00:14.489] Server  LOG     ✅ Using cached database connection
+[00:00:14.593] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `EquipmentBrowser`. 
+[00:00:25.883] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:25.970] Server  LOG     ✅ Using cached database connection
+[00:00:25.993] Server  LOG     ✅ Using cached database connection
+[00:00:26.017] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:26.017] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:26.017] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774373874577} /_vercel/insights/view
+[00:00:26.224] Server  LOG     ✅ Using cached database connection
+[00:00:26.225] Server  LOG     ✅ Using cached database connection
+[00:00:26.230] Server  LOG     ✅ Using cached database connection
+[00:00:26.484] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:26.522] Server  LOG     ✅ Using cached database connection
+[00:00:26.532] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:26.532] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:26.532] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774373875094} /_vercel/insights/view
+[00:00:26.539] Server  LOG     ✅ Using cached database connection
+[00:00:26.546] Server  LOG     ✅ Using cached database connection
+[00:00:26.649] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `EquipmentBrowser`. 
+[00:00:26.975] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:26.995] Server  LOG     ✅ Using cached database connection
+[00:00:27.010] Server  LOG     ✅ Using cached database connection
+[00:00:27.011] Server  LOG     ✅ Using cached database connection
+[00:00:27.019] Server  LOG     ✅ Using cached database connection
+[00:00:27.021] Server  LOG     ✅ Using cached database connection
+[00:00:27.093] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:27.093] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:27.093] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774373875654} /_vercel/insights/view
+[00:02:25.288] Server  LOG     ✅ Using cached database connection
+[00:02:28.186] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:28.210] Server  LOG     ✅ Using cached database connection
+[00:02:28.303] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:28.303] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:28.303] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774373996859} /_vercel/insights/view
+[00:02:28.376] Server  LOG     ✅ Using cached database connection
+[00:02:28.389] Server  LOG     ✅ Using cached database connection
+[00:02:28.489] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `EquipmentBrowser`. 
+[00:02:28.827] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:28.874] Server  LOG     ✅ Using cached database connection
+[00:02:28.893] Server  LOG     ✅ Using cached database connection
+[00:02:28.945] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:28.945] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:28.945] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774373997506} /_vercel/insights/view
+[00:02:29.052] Server  LOG     ✅ Using cached database connection
+[00:02:29.052] Server  LOG     ✅ Using cached database connection
+[00:02:29.059] Server  LOG     ✅ Using cached database connection
+[00:02:37.532] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:37.569] Server  LOG     ✅ Using cached database connection
+[00:02:37.577] Server  LOG     ✅ Using cached database connection
+[00:02:37.581] Server  LOG     ✅ Using cached database connection
+[00:02:37.685] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:37.685] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:37.685] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374006205} /_vercel/insights/view
+[00:02:37.685] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `EquipmentBrowser`. 
+[00:02:57.865] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:57.885] Server  LOG     ✅ Using cached database connection
+[00:02:57.894] Server  LOG     ✅ Using cached database connection
+[00:02:57.898] Server  LOG     ✅ Using cached database connection
+[00:02:58.005] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:58.005] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:58.005] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374026542} /_vercel/insights/view
+[00:02:58.005] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `EquipmentBrowser`. 
+[00:03:09.459] Server  LOG     ✅ Using cached database connection
+[00:04:26.946] Server  LOG     ✅ Using cached database connection
+[00:04:31.400] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:31.426] Server  LOG     ✅ Using cached database connection
+[00:04:31.520] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:31.520] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:04:31.520] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374120073} /_vercel/insights/view
+[00:04:31.625] Server  LOG     ✅ Using cached database connection
+[00:04:31.633] Server  LOG     ✅ Using cached database connection
+[00:04:31.736] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `EquipmentBrowser`. 
+[00:04:32.036] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:32.080] Server  LOG     ✅ Using cached database connection
+[00:04:32.097] Server  LOG     ✅ Using cached database connection
+[00:04:32.156] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:32.156] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:04:32.156] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374120716} /_vercel/insights/view
+[00:04:32.265] Server  LOG     ✅ Using cached database connection
+[00:04:32.265] Server  LOG     ✅ Using cached database connection
+[00:04:32.273] Server  LOG     ✅ Using cached database connection
+[00:05:08.677] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:08.788] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:08.788] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:08.788] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374157349} /_vercel/insights/view
+[00:05:17.809] Server  LOG     ✅ Using cached database connection
+[00:05:17.813] Server  LOG     ✅ Using cached database connection
+[00:05:18.168] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:18.187] Server  LOG     ✅ Using cached database connection
+[00:05:18.196] Server  LOG     ✅ Using cached database connection
+[00:05:18.201] Server  LOG     ✅ Using cached database connection
+[00:05:18.309] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:18.309] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:18.309] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"https://accounts.google.com/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374166846} /_vercel/insights/view
+[00:05:18.309] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `EquipmentBrowser`. 
+[00:05:22.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:22.412] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:22.412] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:22.412] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374170973} /_vercel/insights/view
+[00:05:29.246] Server  LOG     ✅ Using cached database connection
+[00:05:29.248] Server  LOG     ✅ Using cached database connection
+[00:05:29.581] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:29.599] Server  LOG     ✅ Using cached database connection
+[00:05:29.708] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:29.708] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:29.708] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"https://accounts.google.com/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374178258} /_vercel/insights/view
+[00:05:29.758] Server  LOG     ✅ Using cached database connection
+[00:05:29.770] Server  LOG     ✅ Using cached database connection
+[00:05:31.945] Server  LOG     ✅ Using cached database connection
+[00:05:31.958] Server  LOG     ✅ Using cached database connection
+[00:05:32.951] Server  LOG     ✅ Using cached database connection
+[00:05:32.955] Server  LOG     ✅ Using cached database connection
+[00:05:33.432] Server  LOG     ✅ Using cached database connection
+[00:05:33.435] Server  LOG     ✅ Using cached database connection
+[00:05:39.632] Server  LOG     ✅ Using cached database connection
+[00:05:39.640] Server  LOG     ✅ Using cached database connection
+[00:05:42.012] Server  LOG     ✅ Using cached database connection
+[00:05:42.020] Server  LOG     ✅ Using cached database connection
+[00:05:42.031] Server  LOG     ✅ Using cached database connection
+[00:05:42.037] Server  LOG     ✅ Using cached database connection
+[00:05:44.173] Server  LOG     ✅ Using cached database connection
+[00:05:44.183] Server  LOG     ✅ Using cached database connection
+[00:05:44.859] Server  LOG     ✅ Using cached database connection
+[00:05:44.869] Server  LOG     ✅ Using cached database connection
+[00:05:45.421] Server  LOG     ✅ Using cached database connection
+[00:05:45.429] Server  LOG     ✅ Using cached database connection
+[00:05:47.337] Server  LOG     ✅ Using cached database connection
+[00:05:47.353] Server  LOG     ✅ Using cached database connection
+[00:05:47.356] Server  LOG     ✅ Using cached database connection
+[00:05:47.365] Server  LOG     ✅ Using cached database connection
+[00:05:48.814] Server  LOG     ✅ Using cached database connection
+[00:05:48.820] Server  LOG     ✅ Using cached database connection
+[00:05:50.096] Server  LOG     ✅ Using cached database connection
+[00:05:50.103] Server  LOG     ✅ Using cached database connection
+[00:05:51.090] Server  LOG     ✅ Using cached database connection
+[00:05:51.104] Server  LOG     ✅ Using cached database connection
+[00:05:54.129] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:54.243] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:54.243] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:54.243] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374202804} /_vercel/insights/view
+[00:05:54.574] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:54.593] Server  LOG     ✅ Using cached database connection
+[00:05:54.611] Server  LOG     ✅ Using cached database connection
+[00:05:54.692] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:54.692] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:54.692] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374203252} /_vercel/insights/view
+[00:05:54.820] Server  LOG     ✅ Using cached database connection
+[00:05:54.820] Server  LOG     ✅ Using cached database connection
+[00:05:54.856] Server  LOG     ✅ Using cached database connection
+[00:06:05.096] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:05.212] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:05.212] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:06:05.212] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374213774} /_vercel/insights/view
+[00:06:23.001] Server  LOG     ✅ Using cached database connection
+[00:06:23.003] Server  LOG     ✅ Using cached database connection
+[00:06:23.003] Server  LOG     ✅ Using cached database connection
+[00:06:23.012] Server  LOG     ✅ Using cached database connection
+[00:06:23.022] Server  LOG     ✅ Using cached database connection
+[00:06:23.025] Server  LOG     ✅ Using cached database connection
+[00:06:23.032] Server  LOG     ✅ Using cached database connection
+[00:06:23.034] Server  LOG     ✅ Using cached database connection
+[00:06:30.246] Server  LOG     ✅ Using cached database connection
+[00:06:30.256] Server  LOG     ✅ Using cached database connection
+[00:06:31.440] Server  LOG     ✅ Using cached database connection
+[00:06:31.447] Server  LOG     ✅ Using cached database connection
+[00:06:31.462] Server  LOG     ✅ Using cached database connection
+[00:06:31.466] Server  LOG     ✅ Using cached database connection
+[00:06:39.092] Server  LOG     ✅ Using cached database connection
+[00:06:39.108] Server  LOG     ✅ Using cached database connection
+[00:06:40.057] Server  LOG     ✅ Using cached database connection
+[00:06:40.063] Server  LOG     ✅ Using cached database connection
+[00:06:40.077] Server  LOG     ✅ Using cached database connection
+[00:06:40.080] Server  LOG     ✅ Using cached database connection
+[00:06:40.637] Server  LOG     ✅ Using cached database connection
+[00:06:40.650] Server  LOG     ✅ Using cached database connection
+[00:06:41.425] Server  LOG     ✅ Using cached database connection
+[00:06:41.440] Server  LOG     ✅ Using cached database connection
+[00:06:42.275] Server  LOG     ✅ Using cached database connection
+[00:06:42.289] Server  LOG     ✅ Using cached database connection
+[00:06:42.904] Server  LOG     ✅ Using cached database connection
+[00:06:42.914] Server  LOG     ✅ Using cached database connection
+[00:06:43.891] Server  LOG     ✅ Using cached database connection
+[00:06:43.895] Server  LOG     ✅ Using cached database connection
+[00:06:44.862] Server  LOG     ✅ Using cached database connection
+[00:06:44.872] Server  LOG     ✅ Using cached database connection
+[00:06:44.881] Server  LOG     ✅ Using cached database connection
+[00:06:44.884] Server  LOG     ✅ Using cached database connection
+[00:06:51.587] Server  LOG     ✅ Using cached database connection
+[00:06:51.598] Server  LOG     ✅ Using cached database connection
+[00:06:53.677] Server  LOG     ✅ Using cached database connection
+[00:06:53.690] Server  LOG     ✅ Using cached database connection
+[00:07:00.076] Server  LOG     ✅ Using cached database connection
+[00:07:00.089] Server  LOG     ✅ Using cached database connection
+[00:07:00.591] Server  LOG     ✅ Using cached database connection
+[00:07:00.608] Server  LOG     ✅ Using cached database connection
+[00:07:01.092] Server  LOG     ✅ Using cached database connection
+[00:07:01.104] Server  LOG     ✅ Using cached database connection
+[00:07:01.992] Server  LOG     ✅ Using cached database connection
+[00:07:01.998] Server  LOG     ✅ Using cached database connection
+[00:07:02.010] Server  LOG     ✅ Using cached database connection
+[00:07:02.012] Server  LOG     ✅ Using cached database connection
+[00:07:04.513] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:04.625] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:04.625] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:04.625] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374273187} /_vercel/insights/view
+[00:07:04.955] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:04.979] Server  LOG     ✅ Using cached database connection
+[00:07:04.996] Server  LOG     ✅ Using cached database connection
+[00:07:04.998] Server  LOG     ✅ Using cached database connection
+[00:07:05.004] Server  LOG     ✅ Using cached database connection
+[00:07:05.007] Server  LOG     ✅ Using cached database connection
+[00:07:05.076] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:05.076] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:05.076] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374273636} /_vercel/insights/view
+[00:07:22.829] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:22.944] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:22.944] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:22.944] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374291505} /_vercel/insights/view
+[00:07:35.080] Server  LOG     ✅ Using cached database connection
+[00:07:35.084] Server  LOG     ✅ Using cached database connection
+[00:07:35.446] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:35.464] Server  LOG     ✅ Using cached database connection
+[00:07:35.473] Server  LOG     ✅ Using cached database connection
+[00:07:35.478] Server  LOG     ✅ Using cached database connection
+[00:07:35.583] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:35.583] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:35.583] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"https://accounts.google.com/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374304122} /_vercel/insights/view
+[00:07:35.583] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `EquipmentBrowser`. 
+[00:07:38.313] Server  LOG     ✅ Using cached database connection
+[00:07:38.323] Server  LOG     ✅ Using cached database connection
+[00:07:39.338] Server  LOG     ✅ Using cached database connection
+[00:07:39.353] Server  LOG     ✅ Using cached database connection
+[00:07:43.686] Server  LOG     ✅ Using cached database connection
+[00:07:43.696] Server  LOG     ✅ Using cached database connection
+[00:07:46.134] Server  LOG     ✅ Using cached database connection
+[00:07:46.141] Server  LOG     ✅ Using cached database connection
+[00:07:47.671] Server  LOG     ✅ Using cached database connection
+[00:07:47.684] Server  LOG     ✅ Using cached database connection
+[00:07:49.563] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:49.673] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:49.673] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:49.673] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374318234} /_vercel/insights/view
+[00:07:58.339] Server  LOG     ✅ Using cached database connection
+[00:07:58.341] Server  LOG     ✅ Using cached database connection
+[00:07:58.685] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:58.703] Server  LOG     ✅ Using cached database connection
+[00:07:58.712] Server  LOG     ✅ Using cached database connection
+[00:07:58.720] Server  LOG     ✅ Using cached database connection
+[00:07:58.802] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:58.802] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:58.802] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"https://accounts.google.com/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374327362} /_vercel/insights/view
+[00:08:35.791] Server  LOG     ✅ Using cached database connection
+[00:08:35.805] Server  LOG     ✅ Using cached database connection
+[00:08:36.771] Server  LOG     ✅ Using cached database connection
+[00:08:36.786] Server  LOG     ✅ Using cached database connection
+[00:08:46.121] Server  LOG     ✅ Using cached database connection
+[00:08:46.134] Server  LOG     ✅ Using cached database connection
+[00:08:51.822] Server  LOG     ✅ Using cached database connection
+[00:08:51.833] Server  LOG     ✅ Using cached database connection
+[00:08:58.406] Server  LOG     ✅ Using cached database connection
+[00:08:58.421] Server  LOG     ✅ Using cached database connection
+[00:08:58.428] Server  LOG     ✅ Using cached database connection
+[00:08:58.435] Server  LOG     ✅ Using cached database connection
+[00:09:02.575] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:02.688] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:09:02.688] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:09:02.688] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374391249} /_vercel/insights/view
+[00:09:11.835] Server  LOG     ✅ Using cached database connection
+[00:09:11.837] Server  LOG     ✅ Using cached database connection
+[00:09:12.191] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:12.212] Server  LOG     ✅ Using cached database connection
+[00:09:12.230] Server  LOG     ✅ Using cached database connection
+[00:09:12.239] Server  LOG     ✅ Using cached database connection
+[00:09:12.343] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:09:12.343] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:09:12.343] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"https://accounts.google.com/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774374400869} /_vercel/insights/view
+[00:09:12.343] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `EquipmentBrowser`. 
