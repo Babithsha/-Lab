@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import dbConnect from '@/lib/db';
-import { createMockModel } from '@/lib/local-db';
-
-const Experiment = createMockModel('Experiment', {});
+import { Experiment } from '@/lib/models';
 
 export async function PUT(req: NextRequest, props: { params: Promise<{ id: string }> }) {
     const params = await props.params;
@@ -10,7 +8,7 @@ export async function PUT(req: NextRequest, props: { params: Promise<{ id: strin
     const { id } = params;
     const data = await req.json();
 
-    const updated = await Experiment.findByIdAndUpdate(id, data);
+    const updated = await Experiment.findByIdAndUpdate(id, data, { new: true });
 
     if (!updated) {
         return NextResponse.json({ error: "Experiment not found" }, { status: 404 });

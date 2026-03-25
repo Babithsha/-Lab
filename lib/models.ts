@@ -142,8 +142,11 @@ const LabSchema = new Schema<ILab>({
 interface IExperiment {
     _id?: string;
     title: string;
+    category?: string;
     description?: string;
-    procedure?: string;
+    procedure?: string[];
+    components?: string[];
+    safety?: string[];
     equipmentRequired?: string[];
     difficulty?: string;
     duration?: string;
@@ -154,8 +157,11 @@ interface IExperiment {
 
 const ExperimentSchema = new Schema<IExperiment>({
     title: { type: String, required: true },
+    category: { type: String },
     description: { type: String },
-    procedure: { type: String },
+    procedure: [{ type: String }],
+    components: [{ type: String }],
+    safety: [{ type: String }],
     equipmentRequired: [{ type: String }],
     difficulty: { type: String },
     duration: { type: String },
@@ -164,6 +170,32 @@ const ExperimentSchema = new Schema<IExperiment>({
     createdAt: { type: Date, default: Date.now },
 });
 
+// MaintenanceLog Schema
+interface IMaintenanceLog {
+    _id?: string;
+    equipment: string;
+    type: string;
+    notes: string;
+    technician: string;
+    date: Date;
+    createdAt: Date;
+}
+
+const MaintenanceLogSchema = new Schema<IMaintenanceLog>({
+    equipment: { type: String, required: true },
+    type: { type: String, required: true },
+    notes: { type: String, required: true },
+    technician: { type: String, required: true },
+    date: { type: Date, default: Date.now },
+    createdAt: { type: Date, default: Date.now },
+});
+
+// Delete cached models in development to prevent hot-reload schema cast errors
+if (process.env.NODE_ENV === 'development') {
+    delete mongoose.models.Experiment;
+    delete mongoose.models.MaintenanceLog;
+}
+
 // Create or retrieve models (prevent recompilation in development)
 export const User: Model<IUser> = mongoose.models.User || mongoose.model<IUser>('User', UserSchema);
 export const Equipment: Model<IEquipment> = mongoose.models.Equipment || mongoose.model<IEquipment>('Equipment', EquipmentSchema);
@@ -171,6 +203,7 @@ export const Booking: Model<IBooking> = mongoose.models.Booking || mongoose.mode
 export const Announcement: Model<IAnnouncement> = mongoose.models.Announcement || mongoose.model<IAnnouncement>('Announcement', AnnouncementSchema);
 export const Lab: Model<ILab> = mongoose.models.Lab || mongoose.model<ILab>('Lab', LabSchema);
 export const Experiment: Model<IExperiment> = mongoose.models.Experiment || mongoose.model<IExperiment>('Experiment', ExperimentSchema);
+export const MaintenanceLog: Model<IMaintenanceLog> = mongoose.models.MaintenanceLog || mongoose.model<IMaintenanceLog>('MaintenanceLog', MaintenanceLogSchema);
 
 // Export interfaces for use in other files
-export type { IUser, IEquipment, IBooking, IAnnouncement, ILab, IExperiment };
+export type { IUser, IEquipment, IBooking, IAnnouncement, ILab, IExperiment, IMaintenanceLog };

@@ -115,8 +115,16 @@ export function ExperimentLibrary() {
               </div>
 
               <div className="flex gap-2">
-                <Button className="flex-1 bg-blue-600 hover:bg-blue-700">Start Experiment</Button>
-                <Button variant="outline" className="flex-1 bg-transparent" onClick={() => setSelectedExp(null)}>
+                <Button 
+                  className="flex-1 bg-blue-600 hover:bg-blue-700" 
+                  onClick={() => {
+                    toast.success(`Started Experiment: ${selectedExp.title}`);
+                    setSelectedExp(null);
+                  }}
+                >
+                  Start Experiment
+                </Button>
+                <Button variant="outline" className="flex-1 bg-transparent text-white border-slate-600 hover:bg-slate-700" onClick={() => setSelectedExp(null)}>
                   Close
                 </Button>
               </div>

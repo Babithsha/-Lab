@@ -40,7 +40,7 @@ export async function GET(req: NextRequest) {
             .map(([name, count]) => {
                 // Find total qty of this equipment to calc specific utilization if possible
                 const item = equipments.find((e: any) => e.name === name);
-                const totalQty = item ? item.quantity : 1;
+                const totalQty = item?.quantity ?? 1;
                 const util = Math.round((count / (totalQty * 10 || 1)) * 100); // Rough estimate
                 return {
                     name,
