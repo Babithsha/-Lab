@@ -11,7 +11,7 @@ interface Equipment {
   name: string;
   category: string;
   quantity: number;
-  available?: number;
+  available: number;
   lab?: string;
   description?: string;
   status?: string;
@@ -57,10 +57,12 @@ export function AdminEquipment() {
     }
 
     try {
+      const qty = Number(newEquipment.quantity);
       const payload = {
         ...newEquipment,
-        quantity: Number(newEquipment.quantity),
-        status: "Available" // Default
+        quantity: qty,
+        available: qty,   // Always start with all units available
+        status: "Available"
       };
       const res = await fetch('/api/equipment', {
         method: 'POST',
@@ -221,7 +223,7 @@ export function AdminEquipment() {
                       {item.lab && item.lab !== "" ? <span className="text-orange-400 bg-orange-400/10 px-2 py-1 rounded text-xs">In {item.lab}</span> : <span className="text-slate-500 text-xs italic">Unassigned</span>}
                     </td>
                     <td className="p-3 font-semibold text-emerald-400">{item.quantity}</td>
-                    <td className="p-3 font-semibold text-cyan-400">{item.available !== undefined ? item.available : item.quantity}</td>
+                    <td className="p-3 font-semibold text-cyan-400">{item.available ?? item.quantity}</td>
                     <td className="p-3">{item.description}</td>
                     <td className="p-3 flex gap-4">
                       <Button size="sm" variant="outline" onClick={() => startEdit(item)} className="mr-1 h-8">

@@ -25,6 +25,8 @@ interface Booking {
     damageDescription?: string;
     damageReportedBy?: string;
     damageFineAddedAt?: string;
+    returnedAt?: string;
+    returnedBy?: string;
 }
 
 export function AdminBookings() {
@@ -162,6 +164,29 @@ export function AdminBookings() {
         setDeleteConfirmOpen(true);
     };
 
+    const handleMarkReturned = async (booking: Booking) => {
+        try {
+            const res = await fetch(`/api/bookings/${booking._id}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    status: 'Returned',
+                    returnedBy: 'Admin'
+                })
+            });
+
+            if (res.ok) {
+                const updated = await res.json();
+                toast.success('Equipment marked as returned!');
+                setBookings(bookings.map((b) => b._id === booking._id ? updated : b));
+            } else {
+                toast.error('Failed to mark as returned');
+            }
+        } catch (e) {
+            toast.error('Error connecting to server');
+        }
+    };
+
     const filteredBookings = bookings.filter(booking => {
         // Filter by damage fine status
         const fineFilter =
@@ -249,16 +274,19 @@ export function AdminBookings() {
                             </div>
                             <div className="flex flex-col gap-2 items-end">
                                 <span
-                                    className={`text-xs px-3 py-1 rounded font-semibold ${booking.status === "Pending"
-                                        ? "bg-yellow-900 text-yellow-300"
-                                        : booking.status === "Approved" || booking.status === "Confirmed"
-                                            ? "bg-green-900 text-green-300"
-                                            : booking.status === "Denied"
-                                                ? "bg-red-900 text-red-300"
-                                                : "bg-blue-900 text-blue-300"
-                                        }`}
+                                    className={`text-xs px-3 py-1 rounded font-semibold ${
+                                        booking.status === "Pending"
+                                            ? "bg-yellow-900 text-yellow-300"
+                                            : booking.status === "Approved" || booking.status === "Confirmed"
+                                                ? "bg-green-900 text-green-300"
+                                                : booking.status === "Denied"
+                                                    ? "bg-red-900 text-red-300"
+                                                    : booking.status === "Returned"
+                                                        ? "bg-teal-900 text-teal-300"
+                                                        : "bg-blue-900 text-blue-300"
+                                    }`}
                                 >
-                                    {booking.status}
+                                    {booking.status === "Returned" ? "✅ Returned" : booking.status}
                                 </span>
                                 {booking.damageFine && booking.damageFine > 0 && (
                                     <span className="text-xs px-3 py-1 rounded font-semibold bg-orange-900 text-orange-300">
@@ -301,35 +329,57 @@ export function AdminBookings() {
                             </div>
                         )}
 
+                        {/* Return info */}
+                        {booking.status === "Returned" && booking.returnedAt && (
+                            <div className="bg-teal-950/30 border border-teal-900/50 rounded p-3 mt-3">
+                                <p className="text-teal-400 font-semibold text-sm">✅ Equipment Returned</p>
+                                <p className="text-slate-400 text-xs mt-1">
+                                    Returned on: {formatDateTime(booking.returnedAt)}
+                                    {booking.returnedBy && ` • Confirmed by: ${booking.returnedBy}`}
+                                </p>
+                            </div>
+                        )}
+
                         {/* Action Buttons */}
-                        <div className="flex gap-2 mt-4">
-                            {!booking.damageFine || booking.damageFine === 0 ? (
+                        <div className="flex flex-wrap gap-2 mt-4">
+                            {booking.status === "Approved" && (
                                 <Button
                                     size="sm"
-                                    className="bg-orange-600 hover:bg-orange-700"
-                                    onClick={() => openDamageDialog(booking, false)}
+                                    className="bg-teal-600 hover:bg-teal-700 text-white"
+                                    onClick={() => handleMarkReturned(booking)}
                                 >
-                                    Add Damage Fine
+                                    📦 Mark as Returned
                                 </Button>
-                            ) : (
-                                <>
+                            )}
+                            {booking.status !== "Returned" && (
+                                !booking.damageFine || booking.damageFine === 0 ? (
                                     <Button
                                         size="sm"
-                                        variant="outline"
-                                        className="border-orange-600 text-orange-400 hover:bg-orange-950"
-                                        onClick={() => openDamageDialog(booking, true)}
+                                        className="bg-orange-600 hover:bg-orange-700"
+                                        onClick={() => openDamageDialog(booking, false)}
                                     >
-                                        Edit Fine
+                                        Add Damage Fine
                                     </Button>
-                                    <Button
-                                        size="sm"
-                                        variant="outline"
-                                        className="border-red-600 text-red-400 hover:bg-red-950"
-                                        onClick={() => confirmDeleteFine(booking)}
-                                    >
-                                        Remove Fine
-                                    </Button>
-                                </>
+                                ) : (
+                                    <>
+                                        <Button
+                                            size="sm"
+                                            variant="outline"
+                                            className="border-orange-600 text-orange-400 hover:bg-orange-950"
+                                            onClick={() => openDamageDialog(booking, true)}
+                                        >
+                                            Edit Fine
+                                        </Button>
+                                        <Button
+                                            size="sm"
+                                            variant="outline"
+                                            className="border-red-600 text-red-400 hover:bg-red-950"
+                                            onClick={() => confirmDeleteFine(booking)}
+                                        >
+                                            Remove Fine
+                                        </Button>
+                                    </>
+                                )
                             )}
                             <Button
                                 size="sm"

@@ -44,9 +44,24 @@ export function StudentBookings() {
     fetchBookings();
   }, [session])
 
-  const handleCancel = (id: string) => {
-    // Ideally call API to cancel
-    setBookings(bookings.map((b) => (b._id === id ? { ...b, status: "Cancelled" } : b)))
+  const handleCancel = async (id: string) => {
+    if (!confirm("Are you sure you want to cancel this booking?")) return;
+    
+    try {
+      const res = await fetch(`/api/bookings/${id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ status: 'Cancelled' })
+      });
+
+      if (res.ok) {
+        setBookings(bookings.map((b) => (b._id === id ? { ...b, status: "Cancelled" } : b)));
+      } else {
+        console.error("Failed to cancel booking");
+      }
+    } catch (e) {
+      console.error(e);
+    }
   }
 
   const handleReschedule = (id: string) => {
@@ -112,13 +127,15 @@ export function StudentBookings() {
               </div>
             )}
 
-            {booking.status === "Confirmed" && (
+            {(booking.status === "Confirmed" || booking.status === "Approved" || booking.status === "Pending") && (
               <div className="flex gap-2">
-                <Button size="sm" variant="outline" onClick={() => handleReschedule(booking._id)}>
-                  Reschedule
-                </Button>
+                {(booking.status === "Confirmed" || booking.status === "Approved") && (
+                  <Button size="sm" variant="outline" onClick={() => handleReschedule(booking._id)}>
+                    Reschedule
+                  </Button>
+                )}
                 <Button size="sm" className="bg-red-600 hover:bg-red-700" onClick={() => handleCancel(booking._id)}>
-                  Cancel
+                  Cancel Booking
                 </Button>
               </div>
             )}

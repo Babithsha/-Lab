@@ -13,7 +13,7 @@ interface Equipment {
   category: string;
   status: string;
   quantity: number;
-  available?: number;
+  available: number;
   lab?: string;
   description: string;
 }
@@ -72,7 +72,8 @@ export function EquipmentBrowser() {
       if (res.ok) {
         toast.success("Equipment booked successfully!");
         setSelectedEquipment(null);
-        // Optionally refresh list if quantity updates
+        // Refresh the equipment list to show updated availability
+        fetchEquipment();
       } else {
         toast.error("Booking failed.");
       }
@@ -88,7 +89,7 @@ export function EquipmentBrowser() {
     (e) =>
       (selectedCategory === "All" || e.category === selectedCategory) &&
       e.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
-      (e.available !== undefined ? e.available : e.quantity) > 0
+      (e.available ?? e.quantity) > 0
   )
 
   if (loading) return <div className="text-white">Loading equipment...</div>
@@ -170,7 +171,7 @@ export function EquipmentBrowser() {
                     <div className="h-px bg-slate-800 w-full"></div>
                     <div className="flex justify-between items-center">
                       <span className="text-slate-400 text-sm font-medium">Available</span>
-                      <span className="text-cyan-400 font-bold text-lg">{equipment.available !== undefined ? equipment.available : equipment.quantity}</span>
+                      <span className="text-cyan-400 font-bold text-lg">{equipment.available ?? equipment.quantity}</span>
                     </div>
                   </div>
                   
@@ -211,7 +212,7 @@ export function EquipmentBrowser() {
                 <span className="font-semibold text-slate-300">Total Qty:</span> <span className="text-white">{selectedEquipment.quantity}</span>
               </p>
               <p className="text-slate-400 flex justify-between">
-                <span className="font-semibold text-slate-300">Available:</span> <span className="text-cyan-400 font-bold">{selectedEquipment.available !== undefined ? selectedEquipment.available : selectedEquipment.quantity}</span>
+                <span className="font-semibold text-slate-300">Available:</span> <span className="text-cyan-400 font-bold">{selectedEquipment.available ?? selectedEquipment.quantity}</span>
               </p>
             </div>
             <div className="flex gap-2">

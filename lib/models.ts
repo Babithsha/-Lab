@@ -26,6 +26,7 @@ const UserSchema = new Schema<IUser>({
 interface IEquipment {
     _id?: string;
     name: string;
+    category?: string;
     lab?: string;
     status?: string;
     description?: string;
@@ -37,8 +38,9 @@ interface IEquipment {
 
 const EquipmentSchema = new Schema<IEquipment>({
     name: { type: String, required: true },
+    category: { type: String, default: 'General' },
     lab: { type: String },
-    status: { type: String, default: 'available' },
+    status: { type: String, default: 'Available' },
     description: { type: String },
     quantity: { type: Number, default: 1 },
     available: { type: Number, default: 1 },

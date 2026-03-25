@@ -18,7 +18,7 @@ interface Equipment {
   _id: string;
   name: string;
   quantity: number;
-  available?: number;
+  available: number;
   lab?: string;
   status: string;
   category?: string;
@@ -116,10 +116,14 @@ export function EquipmentInventory() {
     }
 
     try {
+      const payload = {
+        ...newEquipment,
+        available: newEquipment.quantity, // Start with all units available
+      };
       const res = await fetch('/api/equipment', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(newEquipment)
+        body: JSON.stringify(payload)
       });
       if (res.ok) {
         const created = await res.json();
@@ -263,7 +267,7 @@ export function EquipmentInventory() {
                       {item.lab && item.lab !== "" ? <span className="text-orange-400 bg-orange-400/10 px-2 py-1 rounded text-xs">In {item.lab}</span> : <span className="text-slate-500 text-xs italic">Unassigned</span>}
                     </td>
                     <td className="p-3 font-semibold text-emerald-400">{item.quantity}</td>
-                    <td className="p-3 font-semibold text-cyan-400">{item.available !== undefined ? item.available : item.quantity}</td>
+                    <td className="p-3 font-semibold text-cyan-400">{item.available ?? item.quantity}</td>
                     <td className="p-3">
                       <span className={`px-2 py-1 rounded text-sm ${item.status === "Available" || item.status === "Working"
                         ? "bg-green-900 text-green-300"

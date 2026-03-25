@@ -1,139 +1,492 @@
-{"timestamp":"00:00:01.090","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:02.109","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:00:02.137","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
-{"timestamp":"00:00:02.137","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
-{"timestamp":"00:00:02.138","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774377006250} /_vercel/insights/view"}
-{"timestamp":"00:00:02.841","source":"Server","level":"LOG","message":"🔄 Creating new database connection..."}
-{"timestamp":"00:00:02.852","source":"Server","level":"LOG","message":"✅ Successfully connected to MongoDB!"}
-{"timestamp":"00:00:02.877","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:03.009","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:03.015","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:03.052","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
-{"timestamp":"00:00:03.091","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
-{"timestamp":"00:00:03.091","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
-{"timestamp":"00:00:04.079","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:00:04.128","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
-{"timestamp":"00:00:04.128","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
-{"timestamp":"00:00:04.128","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774377008220} /_vercel/insights/view"}
-{"timestamp":"00:00:04.130","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:04.147","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:04.148","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:04.155","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:04.160","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
-{"timestamp":"00:00:04.160","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
-{"timestamp":"00:00:04.161","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
-{"timestamp":"00:00:05.450","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:05.465","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:06.479","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:06.486","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:06.985","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:06.989","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:08.141","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:08.154","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:18.303","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:00:18.314","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:04:43.445","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:04:43.462","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:04:45.231","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:04:45.259","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:04:45.270","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:04:45.270","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
-{"timestamp":"00:04:45.270","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
-{"timestamp":"00:04:45.270","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774377289375} /_vercel/insights/view"}
-{"timestamp":"00:04:45.274","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:04:45.277","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:04:45.310","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
-{"timestamp":"00:04:45.311","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
-{"timestamp":"00:04:45.311","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
-{"timestamp":"00:05:29.315","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:05:29.330","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:49.611","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:49.626","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:51.151","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:10:51.177","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:51.185","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
-{"timestamp":"00:10:51.185","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
-{"timestamp":"00:10:51.185","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774377655294} /_vercel/insights/view"}
-{"timestamp":"00:10:51.188","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:51.191","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:51.195","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:51.223","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
-{"timestamp":"00:10:51.223","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
-{"timestamp":"00:10:51.223","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
-{"timestamp":"00:10:52.525","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:52.534","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:53.222","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:53.236","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:53.888","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:53.902","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:55.204","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:10:55.219","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:15:04.566","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:15:04.616","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:15:21.427","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:15:21.444","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:16:56.444","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:16:56.457","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:16:59.376","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:16:59.405","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
-{"timestamp":"00:16:59.405","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
-{"timestamp":"00:16:59.405","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774378023519} /_vercel/insights/view"}
-{"timestamp":"00:16:59.406","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:16:59.418","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:16:59.616","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:16:59.622","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:16:59.647","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
-{"timestamp":"00:16:59.647","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
-{"timestamp":"00:16:59.647","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
-{"timestamp":"00:17:21.776","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:17:21.787","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:17:22.572","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:17:22.589","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:01.550","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:01.568","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:16.029","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:24.327","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:24.340","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:26.241","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:18:26.267","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
-{"timestamp":"00:18:26.267","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
-{"timestamp":"00:18:26.267","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774378110381} /_vercel/insights/view"}
-{"timestamp":"00:18:27.971","source":"Server","level":"ERROR","message":"(node:1252) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.\n(Use `node --trace-deprecation ...` to show where the warning was created)"}
-{"timestamp":"00:18:33.304","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:33.306","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:33.723","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:18:33.749","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
-{"timestamp":"00:18:33.749","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
-{"timestamp":"00:18:33.749","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"https://accounts.google.com/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774378117868} /_vercel/insights/view"}
-{"timestamp":"00:18:33.752","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:33.766","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:33.915","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:33.922","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:33.927","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:33.933","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:36.994","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:37.006","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:41.638","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:41.642","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:43.805","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:43.815","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:45.000","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:45.005","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:45.009","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:18:45.013","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:19:14.926","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:19:14.937","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:19:22.796","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:19:31.894","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:19:50.115","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:20:29.066","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:20:46.933","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:20:46.954","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:20:50.078","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:20:50.200","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
-{"timestamp":"00:20:50.200","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
-{"timestamp":"00:20:50.200","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774378254218} /_vercel/insights/view"}
-{"timestamp":"00:20:50.221","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:20:50.664","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:20:50.675","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
-{"timestamp":"00:20:50.677","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:00:01.377","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:03.349","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:03.383","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:00:03.383","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:00:03.383","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774457772583} /_vercel/insights/view"}
+{"timestamp":"00:00:03.997","source":"Server","level":"LOG","message":"🔄 Creating new database connection..."}
+{"timestamp":"00:00:04.657","source":"Server","level":"LOG","message":"✅ Successfully connected to MongoDB!"}
+{"timestamp":"00:00:05.322","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:00:05.323","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:00:05.385","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:00:05.416","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:00:10.914","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:00:16.644","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:16.668","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:00:16.668","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:00:16.668","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774457785878} /_vercel/insights/view"}
+{"timestamp":"00:00:16.672","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:00:16.725","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:00:16.727","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:00:16.786","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:00:16.790","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:00:18.975","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:18.999","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:00:18.999","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:00:18.999","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774457788208} /_vercel/insights/view"}
+{"timestamp":"00:00:52.507","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:01.471","source":"Server","level":"ERROR","message":"(node:95092) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.\n(Use `node --trace-deprecation ...` to show where the warning was created)"}
+{"timestamp":"00:01:06.923","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:06.958","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:07.503","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:01:07.533","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:01:07.533","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:01:07.533","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"https://accounts.google.com/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774457836741} /_vercel/insights/view"}
+{"timestamp":"00:01:07.533","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:07.585","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:07.628","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:10.526","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:10.690","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:11.538","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:11.643","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:13.218","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:13.223","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:23.995","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:24.042","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:01:25.821","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:01:25.855","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:01:25.855","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:01:25.855","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774457855053} /_vercel/insights/view"}
+{"timestamp":"00:02:20.858","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:32.146","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:32.181","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:32.657","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:02:32.683","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:02:32.683","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:02:32.683","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"https://accounts.google.com/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774457921894} /_vercel/insights/view"}
+{"timestamp":"00:02:32.685","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:32.739","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:32.741","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:32.779","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:32.781","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:34.973","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:35.024","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:36.073","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:36.129","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:37.538","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:37.578","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:38.539","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:38.544","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:38.589","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:38.592","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:39.266","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:39.309","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:40.120","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:40.174","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:41.928","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:41.973","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:47.871","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:47.919","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:48.872","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:48.985","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:49.724","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:02:49.767","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:03:05.200","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:03:14.343","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:03:23.584","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:03:23.616","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:03:23.616","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:03:23.616","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774457972819} /_vercel/insights/view"}
+{"timestamp":"00:03:33.448","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:03:33.486","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:03:33.953","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:03:33.981","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:03:33.983","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:03:33.983","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:03:33.983","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"https://accounts.google.com/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774457983192} /_vercel/insights/view"}
+{"timestamp":"00:03:34.029","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:03:34.074","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:03:39.201","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:03:39.233","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:03:39.233","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:03:39.233","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774457988437} /_vercel/insights/view"}
+{"timestamp":"00:04:45.248","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:02.577","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:02.618","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:02.618","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:02.660","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:02.706","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:02.711","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:02.744","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:02.748","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:06.283","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:06.332","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:20.184","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:20.191","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:20.228","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:20.233","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:22.237","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:22.289","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:23.338","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:23.344","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:23.379","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:05:23.384","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:05.531","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:09.206","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:09.255","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:10.721","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:10.768","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:11.922","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:11.971","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:12.965","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:13.078","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:14.071","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:14.116","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:16.817","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:06:16.849","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:06:16.849","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:06:16.849","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774458146052} /_vercel/insights/view"}
+{"timestamp":"00:06:58.477","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:58.516","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:58.997","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:06:59.024","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:59.032","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:06:59.032","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:06:59.032","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"https://accounts.google.com/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774458188236} /_vercel/insights/view"}
+{"timestamp":"00:06:59.070","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:06:59.107","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:07:07.038","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:07:07.088","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:07:08.341","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:07:08.345","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:07:12.190","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:07:12.199","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:07:13.755","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:07:13.796","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:07:18.486","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:07:18.493","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:08:09.792","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:08:20.454","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:08:20.506","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:08:23.161","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:08:23.207","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:08:25.621","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:08:25.632","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:08:41.772","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:08:41.787","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:09:10.234","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:09:14.819","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:09:14.865","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:09:16.236","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:09:16.282","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:09:19.401","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:09:19.445","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:13:39.890","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:13:39.915","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:13:39.915","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:13:39.915","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774458589124} /_vercel/insights/view"}
+{"timestamp":"00:13:40.112","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:13:40.290","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:13:40.327","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:13:44.691","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:13:44.717","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:13:44.717","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:13:44.717","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774458593925} /_vercel/insights/view"}
+{"timestamp":"00:14:02.868","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:02.905","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:02.905","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:02.950","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:03.216","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:03.216","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:03.253","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:03.254","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:05.354","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:05.402","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:06.305","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:06.311","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:06.352","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:06.356","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:07.053","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:07.100","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:27.384","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:42.400","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:45.570","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:45.578","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:45.616","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:14:45.621","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:00.991","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:15:01.016","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:15:01.016","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:15:01.016","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774458670224} /_vercel/insights/view"}
+{"timestamp":"00:15:11.875","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:11.911","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:12.385","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:15:12.414","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:15:12.414","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:15:12.414","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"https://accounts.google.com/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774458681623} /_vercel/insights/view"}
+{"timestamp":"00:15:12.415","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:12.487","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:12.533","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:12.561","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
+{"timestamp":"00:15:12.574","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
+{"timestamp":"00:15:12.574","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
+{"timestamp":"00:15:23.810","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:33.320","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:33.362","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:34.583","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:34.626","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:37.464","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:39.795","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:43.099","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:50.735","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:50.785","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:56.898","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:15:56.942","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:21:09.855","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:21:17.633","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:21:17.664","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:21:17.664","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:21:17.664","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774459046870} /_vercel/insights/view"}
+{"timestamp":"00:21:33.129","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:21:33.163","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:21:33.642","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:21:33.672","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:21:33.679","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:21:33.679","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:21:33.679","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"https://accounts.google.com/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774459062880} /_vercel/insights/view"}
+{"timestamp":"00:21:33.719","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:21:33.755","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:21:40.300","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:21:43.304","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:21:44.004","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:21:51.072","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:21:53.390","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:21:56.360","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:21:56.382","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:21:56.382","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:21:56.382","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774459085592} /_vercel/insights/view"}
+{"timestamp":"00:22:03.872","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:22:03.908","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:22:04.381","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:22:04.409","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:22:04.414","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:22:04.414","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:22:04.414","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"https://accounts.google.com/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774459093619} /_vercel/insights/view"}
+{"timestamp":"00:22:04.567","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:22:04.603","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:22:04.627","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
+{"timestamp":"00:22:04.627","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
+{"timestamp":"00:22:04.627","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
+{"timestamp":"00:22:08.334","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:22:08.338","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:22:09.111","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:22:09.153","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:22:16.430","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:22:16.468","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:22:40.471","source":"Server","level":"ERROR","message":"Gemini API Failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Your API key was reported as leaked. Please use another API key.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"}
+{"timestamp":"00:22:40.471","source":"Server","level":"ERROR","message":"AI API Error, using fallback: \"Gemini API Failed: 403\""}
+{"timestamp":"00:23:08.696","source":"Server","level":"ERROR","message":"Gemini API Failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Your API key was reported as leaked. Please use another API key.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"}
+{"timestamp":"00:23:08.696","source":"Server","level":"ERROR","message":"AI API Error, using fallback: \"Gemini API Failed: 403\""}
+{"timestamp":"00:23:29.591","source":"Server","level":"ERROR","message":"Gemini API Failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Your API key was reported as leaked. Please use another API key.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"}
+{"timestamp":"00:23:29.592","source":"Server","level":"ERROR","message":"AI API Error, using fallback: \"Gemini API Failed: 403\""}
+{"timestamp":"00:23:43.962","source":"Server","level":"ERROR","message":"Gemini API Failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Your API key was reported as leaked. Please use another API key.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"}
+{"timestamp":"00:23:43.962","source":"Server","level":"ERROR","message":"AI API Error, using fallback: \"Gemini API Failed: 403\""}
+{"timestamp":"00:24:18.348","source":"Server","level":"ERROR","message":"Gemini API Failed (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Your API key was reported as leaked. Please use another API key.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"}
+{"timestamp":"00:24:18.348","source":"Server","level":"ERROR","message":"AI API Error, using fallback: \"Gemini API Failed: 403\""}
+{"timestamp":"00:25:00.020","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:28:13.237","source":"Browser","level":"ERROR","message":"./components/technician/equipment-inventory.tsx\nError:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:1]\n 312 │       </div>\n 313 │     </div>\n 314 │   )\n 315 │ }\n     · ▲\n     ╰────\n  × Expected '</', got '<eof>'\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:3]\n 313 │     </div>\n 314 │   )\n 315 │ }\n     ╰────\n\nCaused by:\n    Syntax Error\n\nImport trace for requested module:\n./components/technician/equipment-inventory.tsx\n./components/dashboards/technician-dashboard.tsx\n./components/auth/login-panel.tsx\n./app/page.tsx"}
+{"timestamp":"00:28:13.241","source":"Server","level":"ERROR","message":"[browser] \"./components/technician/equipment-inventory.tsx\\nError:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?\\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:1]\\n 312 │       </div>\\n 313 │     </div>\\n 314 │   )\\n 315 │ }\\n     · ▲\\n     ╰────\\n  × Expected '</', got '<eof>'\\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:3]\\n 313 │     </div>\\n 314 │   )\\n 315 │ }\\n     ╰────\\n\\nCaused by:\\n    Syntax Error\\n\\nImport trace for requested module:\\n./components/technician/equipment-inventory.tsx\\n./components/dashboards/technician-dashboard.tsx\\n./components/auth/login-panel.tsx\\n./app/page.tsx\" \"\""}
+{"timestamp":"00:28:13.241","source":"Browser","level":"ERROR","message":"./components/technician/equipment-inventory.tsx\nError:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:1]\n 312 │       </div>\n 313 │     </div>\n 314 │   )\n 315 │ }\n     · ▲\n     ╰────\n  × Expected '</', got '<eof>'\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:3]\n 313 │     </div>\n 314 │   )\n 315 │ }\n     ╰────\n\nCaused by:\n    Syntax Error\n\nImport trace for requested module:\n./components/technician/equipment-inventory.tsx\n./components/dashboards/technician-dashboard.tsx\n./components/auth/login-panel.tsx\n./app/page.tsx \"\""}
+{"timestamp":"00:28:13.250","source":"Browser","level":"ERROR","message":"./components/technician/equipment-inventory.tsx\nError:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:1]\n 312 │       </div>\n 313 │     </div>\n 314 │   )\n 315 │ }\n     · ▲\n     ╰────\n  × Expected '</', got '<eof>'\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:3]\n 313 │     </div>\n 314 │   )\n 315 │ }\n     ╰────\n\nCaused by:\n    Syntax Error\n\nImport trace for requested module:\n./components/technician/equipment-inventory.tsx\n./components/dashboards/technician-dashboard.tsx\n./components/auth/login-panel.tsx\n./app/page.tsx"}
+{"timestamp":"00:28:13.251","source":"Server","level":"ERROR","message":"[browser] \"./components/technician/equipment-inventory.tsx\\nError:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?\\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:1]\\n 312 │       </div>\\n 313 │     </div>\\n 314 │   )\\n 315 │ }\\n     · ▲\\n     ╰────\\n  × Expected '</', got '<eof>'\\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:3]\\n 313 │     </div>\\n 314 │   )\\n 315 │ }\\n     ╰────\\n\\nCaused by:\\n    Syntax Error\\n\\nImport trace for requested module:\\n./components/technician/equipment-inventory.tsx\\n./components/dashboards/technician-dashboard.tsx\\n./components/auth/login-panel.tsx\\n./app/page.tsx\" \"\""}
+{"timestamp":"00:28:13.251","source":"Browser","level":"ERROR","message":"./components/technician/equipment-inventory.tsx\nError:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:1]\n 312 │       </div>\n 313 │     </div>\n 314 │   )\n 315 │ }\n     · ▲\n     ╰────\n  × Expected '</', got '<eof>'\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:3]\n 313 │     </div>\n 314 │   )\n 315 │ }\n     ╰────\n\nCaused by:\n    Syntax Error\n\nImport trace for requested module:\n./components/technician/equipment-inventory.tsx\n./components/dashboards/technician-dashboard.tsx\n./components/auth/login-panel.tsx\n./app/page.tsx \"\""}
+{"timestamp":"00:28:13.276","source":"Server","level":"ERROR","message":"⨯ ./components/technician/equipment-inventory.tsx\nError:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:1]\n 312 │       </div>\n 313 │     </div>\n 314 │   )\n 315 │ }\n     · ▲\n     ╰────\n  × Expected '</', got '<eof>'\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:3]\n 313 │     </div>\n 314 │   )\n 315 │ }\n     ╰────\n\nCaused by:\n    Syntax Error\n\nImport trace for requested module:\n./components/technician/equipment-inventory.tsx\n./components/dashboards/technician-dashboard.tsx\n./components/auth/login-panel.tsx\n./app/page.tsx"}
+{"timestamp":"00:28:34.481","source":"Browser","level":"ERROR","message":"./components/technician/equipment-inventory.tsx\nError:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:1]\n 312 │       </div>\n 313 │     </div>\n 314 │   )\n 315 │ }\n     · ▲\n     ╰────\n  × Expected '</', got '<eof>'\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:3]\n 313 │     </div>\n 314 │   )\n 315 │ }\n     ╰────\n\nCaused by:\n    Syntax Error\n\nImport trace for requested module:\n./components/technician/equipment-inventory.tsx\n./components/dashboards/technician-dashboard.tsx\n./components/auth/login-panel.tsx\n./app/page.tsx"}
+{"timestamp":"00:28:34.481","source":"Server","level":"ERROR","message":"[browser] \"./components/technician/equipment-inventory.tsx\\nError:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?\\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:1]\\n 312 │       </div>\\n 313 │     </div>\\n 314 │   )\\n 315 │ }\\n     · ▲\\n     ╰────\\n  × Expected '</', got '<eof>'\\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:3]\\n 313 │     </div>\\n 314 │   )\\n 315 │ }\\n     ╰────\\n\\nCaused by:\\n    Syntax Error\\n\\nImport trace for requested module:\\n./components/technician/equipment-inventory.tsx\\n./components/dashboards/technician-dashboard.tsx\\n./components/auth/login-panel.tsx\\n./app/page.tsx\" \"\""}
+{"timestamp":"00:28:34.481","source":"Browser","level":"ERROR","message":"./components/technician/equipment-inventory.tsx\nError:   × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:1]\n 312 │       </div>\n 313 │     </div>\n 314 │   )\n 315 │ }\n     · ▲\n     ╰────\n  × Expected '</', got '<eof>'\n     ╭─[/Users/babithsha/Downloads/lab-equipment-booking-system copy 2/components/technician/equipment-inventory.tsx:315:3]\n 313 │     </div>\n 314 │   )\n 315 │ }\n     ╰────\n\nCaused by:\n    Syntax Error\n\nImport trace for requested module:\n./components/technician/equipment-inventory.tsx\n./components/dashboards/technician-dashboard.tsx\n./components/auth/login-panel.tsx\n./app/page.tsx \"\""}
+{"timestamp":"00:29:01.870","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:29:01.897","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:29:01.897","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:29:01.897","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774459511103} /_vercel/insights/view"}
+{"timestamp":"00:29:02.178","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:29:02.425","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:29:02.484","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:29:02.508","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
+{"timestamp":"00:29:02.508","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
+{"timestamp":"00:29:02.509","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
+{"timestamp":"00:29:09.672","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:30:17.663","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:30:17.689","source":"Browser","level":"ERROR","message":"A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>\n      <AppDevOverlayErrorBoundary globalError={[...]}>\n        <ReplaySsrOnlyErrors>\n        <DevRootHTTPAccessFallbackBoundary>\n          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>\n            <HTTPAccessFallbackErrorBoundary pathname=\"/\" notFound={<NotAllowedRootHTTPFallbackError>} ...>\n              <RedirectBoundary>\n                <RedirectErrorBoundary router={{...}}>\n                  <Head>\n                  <__next_root_layout_boundary__>\n                    <SegmentViewNode type=\"layout\" pagePath=\"layout.tsx\">\n                      <SegmentTrieNode>\n                      <link>\n                      <RootLayout>\n                        <html lang=\"en\">\n                          <body\n+                           className=\"font-sans antialiased\"\n-                           className=\"font-sans antialiased antigravity-scroll-lock\"\n                          >\n                  ...\n"}
+{"timestamp":"00:30:17.714","source":"Server","level":"ERROR","message":"[browser] \"A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\\n\\n- A server/client branch `if (typeof window !== 'undefined')`.\\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\\n- Date formatting in a user's locale which doesn't match the server.\\n- External changing data without sending a snapshot of it along with the HTML.\\n- Invalid HTML tag nesting.\\n\\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\\n\\nhttps://react.dev/link/hydration-mismatch\\n\\n  ...\\n    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>\\n      <AppDevOverlayErrorBoundary globalError={[...]}>\\n        <ReplaySsrOnlyErrors>\\n        <DevRootHTTPAccessFallbackBoundary>\\n          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>\\n            <HTTPAccessFallbackErrorBoundary pathname=\\\"/\\\" notFound={<NotAllowedRootHTTPFallbackError>} ...>\\n              <RedirectBoundary>\\n                <RedirectErrorBoundary router={{...}}>\\n                  <Head>\\n                  <__next_root_layout_boundary__>\\n                    <SegmentViewNode type=\\\"layout\\\" pagePath=\\\"layout.tsx\\\">\\n                      <SegmentTrieNode>\\n                      <link>\\n                      <RootLayout>\\n                        <html lang=\\\"en\\\">\\n                          <body\\n+                           className=\\\"font-sans antialiased\\\"\\n-                           className=\\\"font-sans antialiased antigravity-scroll-lock\\\"\\n                          >\\n                  ...\\n\" \"\""}
+{"timestamp":"00:30:17.715","source":"Browser","level":"ERROR","message":"A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\nhttps://react.dev/link/hydration-mismatch\n\n  ...\n    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>\n      <AppDevOverlayErrorBoundary globalError={[...]}>\n        <ReplaySsrOnlyErrors>\n        <DevRootHTTPAccessFallbackBoundary>\n          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>\n            <HTTPAccessFallbackErrorBoundary pathname=\"/\" notFound={<NotAllowedRootHTTPFallbackError>} ...>\n              <RedirectBoundary>\n                <RedirectErrorBoundary router={{...}}>\n                  <Head>\n                  <__next_root_layout_boundary__>\n                    <SegmentViewNode type=\"layout\" pagePath=\"layout.tsx\">\n                      <SegmentTrieNode>\n                      <link>\n                      <RootLayout>\n                        <html lang=\"en\">\n                          <body\n+                           className=\"font-sans antialiased\"\n-                           className=\"font-sans antialiased antigravity-scroll-lock\"\n                          >\n                  ...\n \"\""}
+{"timestamp":"00:30:17.715","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:30:17.715","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:30:17.715","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774459586920} /_vercel/insights/view"}
+{"timestamp":"00:30:46.158","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:31:03.800","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:31:20.305","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:31:47.122","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:27.195","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:32:27.230","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:32:27.230","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:32:27.230","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774459716432} /_vercel/insights/view"}
+{"timestamp":"00:32:35.857","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:35.892","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:36.454","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:32:36.485","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:36.496","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:32:36.496","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:32:36.496","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"https://accounts.google.com/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774459725694} /_vercel/insights/view"}
+{"timestamp":"00:32:36.532","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:36.571","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:39.989","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:40.030","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:53.858","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:55.775","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:55.793","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:57.622","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:57.665","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:59.422","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:32:59.465","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:37:28.204","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:37:40.798","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:38:02.271","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:38:02.294","source":"Browser","level":"ERROR","message":"A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>\n      <AppDevOverlayErrorBoundary globalError={[...]}>\n        <ReplaySsrOnlyErrors>\n        <DevRootHTTPAccessFallbackBoundary>\n          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>\n            <HTTPAccessFallbackErrorBoundary pathname=\"/\" notFound={<NotAllowedRootHTTPFallbackError>} ...>\n              <RedirectBoundary>\n                <RedirectErrorBoundary router={{...}}>\n                  <Head>\n                  <__next_root_layout_boundary__>\n                    <SegmentViewNode type=\"layout\" pagePath=\"layout.tsx\">\n                      <SegmentTrieNode>\n                      <link>\n                      <RootLayout>\n                        <html lang=\"en\">\n                          <body\n+                           className=\"font-sans antialiased\"\n-                           className=\"font-sans antialiased antigravity-scroll-lock\"\n                          >\n                  ...\n"}
+{"timestamp":"00:38:02.295","source":"Server","level":"ERROR","message":"[browser] \"A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\\n\\n- A server/client branch `if (typeof window !== 'undefined')`.\\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\\n- Date formatting in a user's locale which doesn't match the server.\\n- External changing data without sending a snapshot of it along with the HTML.\\n- Invalid HTML tag nesting.\\n\\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\\n\\nhttps://react.dev/link/hydration-mismatch\\n\\n  ...\\n    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>\\n      <AppDevOverlayErrorBoundary globalError={[...]}>\\n        <ReplaySsrOnlyErrors>\\n        <DevRootHTTPAccessFallbackBoundary>\\n          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>\\n            <HTTPAccessFallbackErrorBoundary pathname=\\\"/\\\" notFound={<NotAllowedRootHTTPFallbackError>} ...>\\n              <RedirectBoundary>\\n                <RedirectErrorBoundary router={{...}}>\\n                  <Head>\\n                  <__next_root_layout_boundary__>\\n                    <SegmentViewNode type=\\\"layout\\\" pagePath=\\\"layout.tsx\\\">\\n                      <SegmentTrieNode>\\n                      <link>\\n                      <RootLayout>\\n                        <html lang=\\\"en\\\">\\n                          <body\\n+                           className=\\\"font-sans antialiased\\\"\\n-                           className=\\\"font-sans antialiased antigravity-scroll-lock\\\"\\n                          >\\n                  ...\\n\" \"\""}
+{"timestamp":"00:38:02.296","source":"Browser","level":"ERROR","message":"A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\nhttps://react.dev/link/hydration-mismatch\n\n  ...\n    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>\n      <AppDevOverlayErrorBoundary globalError={[...]}>\n        <ReplaySsrOnlyErrors>\n        <DevRootHTTPAccessFallbackBoundary>\n          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>\n            <HTTPAccessFallbackErrorBoundary pathname=\"/\" notFound={<NotAllowedRootHTTPFallbackError>} ...>\n              <RedirectBoundary>\n                <RedirectErrorBoundary router={{...}}>\n                  <Head>\n                  <__next_root_layout_boundary__>\n                    <SegmentViewNode type=\"layout\" pagePath=\"layout.tsx\">\n                      <SegmentTrieNode>\n                      <link>\n                      <RootLayout>\n                        <html lang=\"en\">\n                          <body\n+                           className=\"font-sans antialiased\"\n-                           className=\"font-sans antialiased antigravity-scroll-lock\"\n                          >\n                  ...\n \"\""}
+{"timestamp":"00:38:02.331","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:38:02.331","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:38:02.331","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460051521} /_vercel/insights/view"}
+{"timestamp":"00:38:03.171","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:38:03.199","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:38:03.199","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:38:03.199","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460052406} /_vercel/insights/view"}
+{"timestamp":"00:38:03.203","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:38:03.224","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:38:03.262","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:38:03.262","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:38:03.262","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460052470} /_vercel/insights/view"}
+{"timestamp":"00:38:03.542","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:38:03.605","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:38:59.148","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:39:30.228","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:39:30.267","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:39:30.267","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:39:30.315","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:39:30.477","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:39:30.532","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:39:30.649","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
+{"timestamp":"00:39:30.649","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
+{"timestamp":"00:39:30.649","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
+{"timestamp":"00:39:57.493","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:39:57.530","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:39:57.530","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:39:57.530","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460166726} /_vercel/insights/view"}
+{"timestamp":"00:40:04.961","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:04.996","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:05.496","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:40:05.524","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:05.529","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:40:05.529","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:40:05.529","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"https://accounts.google.com/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460174732} /_vercel/insights/view"}
+{"timestamp":"00:40:05.577","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:05.623","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:05.651","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
+{"timestamp":"00:40:05.651","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
+{"timestamp":"00:40:05.651","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
+{"timestamp":"00:40:12.260","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:16.407","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:40:16.454","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:40:16.454","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:40:16.454","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460185638} /_vercel/insights/view"}
+{"timestamp":"00:40:16.457","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:16.505","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:16.547","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:16.566","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
+{"timestamp":"00:40:16.566","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
+{"timestamp":"00:40:16.567","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
+{"timestamp":"00:40:20.539","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:40:20.581","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:40:20.581","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:40:20.581","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460189789} /_vercel/insights/view"}
+{"timestamp":"00:40:22.560","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:24.931","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:40:24.955","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:24.962","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:40:24.962","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:40:24.962","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460194163} /_vercel/insights/view"}
+{"timestamp":"00:40:24.995","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:25.069","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:25.085","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
+{"timestamp":"00:40:25.086","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
+{"timestamp":"00:40:25.086","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
+{"timestamp":"00:40:29.713","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:33.129","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:33.167","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:39.681","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:40:39.721","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:41:03.596","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:41:32.222","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:41:32.255","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:41:32.255","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:41:32.302","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:41:32.344","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:41:32.385","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:41:54.312","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:41:54.353","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:42:21.593","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:42:21.646","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:42:21.646","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:42:21.646","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460310846} /_vercel/insights/view"}
+{"timestamp":"00:46:18.520","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:46:34.892","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:48:12.934","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:48:14.555","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:48:14.581","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:48:14.581","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:48:14.581","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460663788} /_vercel/insights/view"}
+{"timestamp":"00:48:14.604","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:48:14.815","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:48:14.855","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:48:14.887","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
+{"timestamp":"00:48:14.887","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
+{"timestamp":"00:48:14.887","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
+{"timestamp":"00:48:15.261","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:48:15.262","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:48:15.329","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:48:15.329","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:48:15.329","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460664504} /_vercel/insights/view"}
+{"timestamp":"00:48:15.329","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:48:15.329","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:48:15.329","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460664504} /_vercel/insights/view"}
+{"timestamp":"00:48:22.998","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:48:23.139","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:48:32.313","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:48:32.445","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:48:34.545","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:48:34.669","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:16.925","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:20.078","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:49:20.103","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:20.111","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:49:20.111","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:49:20.111","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460729309} /_vercel/insights/view"}
+{"timestamp":"00:49:20.147","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:20.183","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:20.201","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.%s%s See https://react.dev/link/warning-keys for more information. \n\nCheck the render method of `EquipmentBrowser`. "}
+{"timestamp":"00:49:20.201","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information.\" \"\""}
+{"timestamp":"00:49:20.201","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `EquipmentBrowser`. See https://react.dev/link/warning-keys for more information. \"\""}
+{"timestamp":"00:49:21.590","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:21.596","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:22.303","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:22.348","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:23.645","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:23.686","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:27.617","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:49:27.645","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:49:27.645","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:49:27.645","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460736847} /_vercel/insights/view"}
+{"timestamp":"00:49:37.590","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:37.624","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:38.098","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:49:38.127","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit"}
+{"timestamp":"00:49:38.127","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:49:38.127","source":"Browser","level":"LOG","message":"%c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"r\":\"https://accounts.google.com/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"1.3.1\",\"sv\":\"0.1.3\",\"ts\":1774460747333} /_vercel/insights/view"}
+{"timestamp":"00:49:38.129","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:38.184","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:38.220","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:40.666","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:40.712","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:51.794","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:54.085","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:57.535","source":"Server","level":"LOG","message":"✅ Using cached database connection"}
+{"timestamp":"00:49:57.586","source":"Server","level":"LOG","message":"✅ Using cached database connection"}

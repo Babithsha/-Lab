@@ -13,7 +13,7 @@ import { formatDate, formatTime, formatDateTime } from "@/lib/date-utils"
 
 interface BookingRequest {
   _id: string;
-  userId: string; // Changed from user to userId to match DB
+  userId: string;
   userName?: string;
   equipmentName: string;
   date: string;
@@ -24,6 +24,8 @@ interface BookingRequest {
   damageDescription?: string;
   damageReportedBy?: string;
   damageFineAddedAt?: string;
+  returnedAt?: string;
+  returnedBy?: string;
 }
 
 export function BookingApprovals() {
@@ -78,6 +80,29 @@ export function BookingApprovals() {
 
   const handleApprove = (id: string) => updateStatus(id, "Approved");
   const handleDeny = (id: string) => updateStatus(id, "Denied");
+
+  const handleMarkReturned = async (booking: BookingRequest) => {
+    try {
+      const res = await fetch(`/api/bookings/${booking._id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          status: 'Returned',
+          returnedBy: 'Technician'
+        })
+      });
+
+      if (res.ok) {
+        const updated = await res.json();
+        toast.success('Equipment marked as returned!');
+        setRequests(requests.map((r) => r._id === booking._id ? updated : r));
+      } else {
+        toast.error('Failed to mark as returned');
+      }
+    } catch (e) {
+      toast.error('Error connecting to server');
+    }
+  };
 
   const openDamageDialog = (booking: BookingRequest, editMode = false) => {
     setSelectedBooking(booking);
@@ -211,14 +236,17 @@ export function BookingApprovals() {
               </div>
               <div className="flex flex-col gap-2 items-end">
                 <span
-                  className={`text-xs px-3 py-1 rounded font-semibold ${request.status === "Pending"
-                    ? "bg-yellow-900 text-yellow-300"
-                    : request.status === "Approved" || request.status === "Confirmed"
-                      ? "bg-green-900 text-green-300"
-                      : "bg-red-900 text-red-300"
-                    }`}
+                  className={`text-xs px-3 py-1 rounded font-semibold ${
+                    request.status === "Pending"
+                      ? "bg-yellow-900 text-yellow-300"
+                      : request.status === "Approved" || request.status === "Confirmed"
+                        ? "bg-green-900 text-green-300"
+                        : request.status === "Returned"
+                          ? "bg-teal-900 text-teal-300"
+                          : "bg-red-900 text-red-300"
+                  }`}
                 >
-                  {request.status}
+                  {request.status === "Returned" ? "✅ Returned" : request.status}
                 </span>
                 {request.damageFine && request.damageFine > 0 && (
                   <span className="text-xs px-3 py-1 rounded font-semibold bg-orange-900 text-orange-300">
@@ -252,7 +280,18 @@ export function BookingApprovals() {
               </div>
             )}
 
-            <div className="flex gap-2">
+            {/* Return info */}
+            {request.status === "Returned" && request.returnedAt && (
+              <div className="bg-teal-950/30 border border-teal-900/50 rounded p-3 mb-4">
+                <p className="text-teal-400 font-semibold text-sm">✅ Equipment Returned</p>
+                <p className="text-slate-400 text-xs mt-1">
+                  Returned on: {formatDateTime(request.returnedAt)}
+                  {request.returnedBy && ` • Confirmed by: ${request.returnedBy}`}
+                </p>
+              </div>
+            )}
+
+            <div className="flex flex-wrap gap-2">
               {request.status === "Pending" && (
                 <>
                   <Button size="sm" className="bg-green-600 hover:bg-green-700" onClick={() => handleApprove(request._id)}>
@@ -262,6 +301,15 @@ export function BookingApprovals() {
                     Deny
                   </Button>
                 </>
+              )}
+              {request.status === "Approved" && (
+                <Button
+                  size="sm"
+                  className="bg-teal-600 hover:bg-teal-700 text-white"
+                  onClick={() => handleMarkReturned(request)}
+                >
+                  📦 Mark as Returned
+                </Button>
               )}
               {(request.status === "Approved" || request.status === "Completed") && (
                 <>

@@ -12,6 +12,10 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   await dbConnect();
   const data = await req.json();
+  // Ensure available is always set correctly — defaults to quantity if not specified
+  if (data.quantity !== undefined && data.available === undefined) {
+    data.available = data.quantity;
+  }
   const item = await Equipment.create(data);
   return NextResponse.json(item, { status: 201 });
 }
